@@ -1,0 +1,11 @@
+- It is a component of the Windows operating system that is responsible for managing user accounts and security on the local computer.
+- The SAM database stores user account information, including usernames, passwords(in encrypted form), and security descriptors.
+- When a user logs into a Windows computer, the SAM database is checked to verify the user's credentials and to determine what resources the user is authorized to access.
+- Note that the SAM database is only used for local user accounts on the computer.
+- The passwords are stored in a SAM database in a hashed format in a registry hive either as an LM hash or as an NTLM hash
+- LM hash is an older, weaker algorithm that is still supported for compatibility reasons. 
+- NTLM hash is a stronger algorithm that is more secure.
+- The SAM database is stored as a file on the system at the path `%SystemRoot%/system32/config/SAM`.
+- When the system is running, the SAM file is loaded into memory and is accessible through the Windows registry at the location `HKLM/SAM`. 
+- HKLM is a shorthand notation for `HKEY_LOCAL_MACHINE`.
+- HKLM is a top level registry key that stores configuration information for the system and its installed software.

@@ -1,0 +1,3 @@
+- Footprinting is a process of gathering information about a target system or organization, with the goal of identifying potential vulnerabilities and weaknesses that can be exploited.
+- Footprinting is often a critical first step in the process of conducting a cyber attack, and it is used by both ethical hackers and malicious attackers to identify potential targets and develop attack strategies.
+- Footprinting, on the other hand, is a type of information gathering that is more specific. It's like trying to be a detective and find out as much information as possible about one particular thing, like a computer system or a website.

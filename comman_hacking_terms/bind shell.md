@@ -1,0 +1,4 @@
+- a bind shell refers to a type of remote access capability that can be used by an attacker to gain control of a compromised system.
+- he term "bind" in "bind shell" refers to the fact that the network service "binds" itself to a specific network port, waiting for incoming connections.
+- It works by creating a network service that listens on a particular network port for incoming connections from the attacker, effectively creating a "shell" session that allows the attacker to execute commands on the compromised system as if they were physically present at the keyboard.
+- however, nowadays it is not suitable for most remote exploitation scenarios because the target is probably behind a firewall. Solution --> [[reverse shell]]

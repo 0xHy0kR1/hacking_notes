@@ -1,0 +1,2 @@
+- Grey box pentesting is done with a little bit of knowledge of the network they're testing, from a perspective equivalent to an `employee` who doesn't work in the IT department, such as a `receptionist` or `customer service agent`.
+- The customer will typically give the tester in-scope network ranges or individual IP addresses in a grey box situation.

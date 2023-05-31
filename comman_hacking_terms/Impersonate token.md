@@ -1,0 +1,3 @@
+- It refers to a situation where someone gains access to another user's token and uses it to perform actions within the system as if they were the that user.
+- This could happen if the attacker steals the user's token, guesses the token's value, or somehow tricks the system into accepting a fraudulent token.
+- It allows an attacker to gain access to sensitive data or perform unauthorized actions within the system.

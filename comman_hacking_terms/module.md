@@ -1,0 +1,3 @@
+- Modules are the small building blocks of a complete system.
+- Every module performs a specific task and a complete system is built by combining several modules to function as a single unit.
+- The biggest advantage of such an architecture is that it becomes easy for developers to integrate new exploit code and tools into the framework

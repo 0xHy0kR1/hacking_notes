@@ -1,0 +1,2 @@
+- DNS is a system that helps to translate human-readable website addresses (like [www.example.com](http://www.example.com/)) into IP addresses.
+- DNS servers store information about domain names and their corresponding IP addresses in a hierarchical structure.

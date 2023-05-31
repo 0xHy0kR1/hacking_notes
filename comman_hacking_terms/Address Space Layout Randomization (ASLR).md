@@ -1,0 +1,6 @@
+- Imagine you have a big toy box with lots of toys inside. Sometimes, a bad guy might try to sneak into your toy box and steal your favorite toy. But what if your toy box had a secret trick that made it really hard for the bad guy to find your favorite toy?
+- So, ASLR is like a secret hiding place for your computer programs, which helps keep them safe from bad guys who want to take over your computer.
+# In technical way - 
+- When a program is loaded into memory, it's divided into different sections, such as the code section, data section, and stack section. Each section is located at a specific address in memory.
+- ASLR works by randomly moving the location of these sections in memory each time the program is run. This makes it harder for attackers to know where a specific section is located in memory, which in turn makes it harder for them to exploit vulnerabilities in the program.
+- For example, if an attacker wants to execute malicious code in a program, they need to know where the code section is located in memory. If the location of the code section is randomized with ASLR, the attacker will have a much harder time finding the code section and executing their malicious code.

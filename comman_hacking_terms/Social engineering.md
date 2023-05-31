@@ -1,0 +1,2 @@
+- Social engineering is a tactic used by cyber attackers to trick or manipulate people into divulging sensitive information or performing actions that may be harmful to themselves or their organization.
+related --> [[Information gathering]]

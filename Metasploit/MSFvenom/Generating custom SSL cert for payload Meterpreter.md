@@ -1,0 +1,3 @@
+- When the client begins with an SSL session with the server, the firewall captures the client SSL request and forwards the SSL request to the server. The server sends a certificate for the client that is captured by the firewall. If the server certificate is signed by a CA that the firewall trusts, the firewall generates a duplicate of the server certificate signed by the Forward Trust certificate and forward the certificate to the client to authenticate.
+- Meterpreter_Paranoid_Mode.sh allows users to secure your staged connection for Meterpreter by having it check the certificate of the handler it is connecting to.
+

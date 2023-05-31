@@ -1,0 +1,5 @@
+- In an ARP (Address Resolution Protocol) spoofing attack, a malicious person pretends to be someone else on the network. They send out messages to other devices, claiming to be a different device with a different IP address.
+- When other devices receive these fake messages, they get tricked into believing that the attacker's device is the real one.
+- This can cause all sorts of problems because the attacker can intercept and manipulate the communication between the devices on the network.
+- They can steal sensitive information, like passwords or credit card numbers, or even modify the data being exchanged.
+- ARP is responsible for mapping IP addresses to MAC addresses in a network.

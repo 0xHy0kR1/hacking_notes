@@ -1,0 +1,4 @@
+- CVE stands for Common Vulnerabilities and Exposures.
+- It is a standard method used to identify and name security vulnerabilities and exposures in software and hardware systems.
+- By using CVEs, cybersecurity professionals can more easily track and manage vulnerabilities and exposures across different systems and products.
+- This helps to ensure that potential security risks are identified and addressed in a timely manner, reducing the likelihood of cyber attacks and other security incidents.

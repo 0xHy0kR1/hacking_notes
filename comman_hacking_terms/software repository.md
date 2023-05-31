@@ -1,0 +1,2 @@
+- A software repository is a centralized location where software packages are stored and distributed for installation on computers or devices.
+- In an organization or company, a software repository may contain licensed or proprietary software, as well as custom-built software that is specific to the organization's needs

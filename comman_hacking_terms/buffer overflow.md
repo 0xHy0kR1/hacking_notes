@@ -1,0 +1,6 @@
+- Imagine you have a bucket that can hold 10 toys. But one day, you accidentally put 11 toys into the bucket. What do you think will happen?
+  That's right! The toys will start spilling out of the bucket because it can't hold any more toys than its maximum capacity.
+- In a computer, programs also have "buckets" called buffers that can only hold a certain amount of information. But if too much information is put into the buffer, it can "overflow" and cause problems just like the toy bucket.
+# In technical way - 
+- When a buffer overflow happens, it usually occurs in the stack area of memory. An attacker can intentionally send more data than the buffer can handle, which overwrites adjacent memory addresses in the stack. This can cause the program to crash, or in some cases, allow the attacker to execute arbitrary code or take control of the program.
+- Windows OS has built-in protections to prevent buffer overflows, such as [[Data Execution Prevention (DEP)]] and [[Address Space Layout Randomization (ASLR)]]. However, it's still important for software developers to be aware of buffer overflows and write code that is resistant to such attacks.

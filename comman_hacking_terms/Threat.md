@@ -1,0 +1,4 @@
+- Threat is a word we use to describe something that can potentially cause harm or danger.
+- For example, if you're walking in the woods and you see a bear, the bear could be a threat because it has the potential to harm you.
+- In cybersecurity, a threat refers to any potential danger or risk that could harm computer systems, networks, or data.
+- Threats can come in many forms, such as viruses, malware, hackers, and cyber attacks. These threats have the potential to steal, damage, or destroy sensitive information, disrupt services, or cause other negative consequences.

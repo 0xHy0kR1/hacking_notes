@@ -1,0 +1,1 @@
+A MITM attack involves an attacker intercepting and manipulating communications between two parties without their knowledge.

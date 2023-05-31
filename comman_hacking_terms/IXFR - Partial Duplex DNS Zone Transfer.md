@@ -1,0 +1,4 @@
+- "partial duplex," which is like when you and your friend take turns telling stories, but you can interrupt each other if you need to.
+- So a partial duplex DNS zone transfer is when two DNS servers talk to each other, but they take turns sending and receiving information, like telling stories one after the other. But unlike full duplex, they can interrupt each other if they need to clarify something or if there's a problem with the information.
+- It's like having a conversation where you take turns speaking, but you can still ask questions or make comments to clarify things.
+Related --> [[DNS Zone Transfer Misconfiguration]] --> [[passive information gathering]]

@@ -1,0 +1,1 @@
+- `White box` pentesting is typically conducted by giving the penetration tester full access to all systems, configurations, build documents, etc., and source code if web applications are in-scope.

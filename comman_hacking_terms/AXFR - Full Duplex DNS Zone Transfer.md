@@ -1,0 +1,3 @@
+- "full duplex," which is like when you and your friend both tell stories at the same time, without interrupting each other.
+- So a full duplex DNS zone transfer is when two DNS servers talk to each other at the same time, sending and receiving information, like telling stories at the same time. It's like having a really fast and efficient conversation between two computers!
+Related -->  [[DNS Zone Transfer Misconfiguration]] --> [[Passive information gathering]]

@@ -1,0 +1,3 @@
+- In simple terms, Railgun is a feature in Metasploit that allows the attacker to directly interact with the windows operating system's internal functions and resources, without the need to load additional programs or inject code into the system's memory.
+- Some examples of tasks that can be performed using Railgun include manipulating processes and the system registry, as well as performing network operations.
+- In technical terms, Railgun is a feature in Metasploit's Meterpreter payload that allows for direct interaction with the windows API from the remote system. 

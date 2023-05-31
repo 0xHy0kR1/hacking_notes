@@ -1,0 +1,6 @@
+- SMTP stands for Simple Mail Transfer Protocol. It's a set of rules that helps computers send email messages to each other.
+- When you send an email message, your computer uses SMTP to connect to an email server and send the message to that server. The email server then uses SMTP to send the message to the recipient's email server. The recipient's computer can then use SMTP to retrieve the message from their email server and read it.
+# In technical way - 
+- It is a client-server protocol, which means that there are two types of systems involved: SMTP clients and SMTP servers. The SMTP client is responsible for sending the message, and the SMTP server is responsible for receiving and delivering the message.
+- When an SMTP client sends a message, it first establishes a connection with the SMTP server on port 25 (or other designated ports) and then sends the message using a specific format called the Simple Message Transfer Protocol (SMTP).
+- The message consists of a header and a body, and the header contains information such as the sender's email address, the recipient's email address, and the subject of the message.

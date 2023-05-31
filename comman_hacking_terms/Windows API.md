@@ -1,0 +1,3 @@
+- The Windows API(Application Programming Interface) is a set of functions and procedures  that allows software applications to interact with the Windows operating system.
+- In simpler terms, The Windows API provides a way for programs to access and use the features of the operating system, such as managing files, manipulating the registry, and accessing system resources like printers and network devices.
+- The Windows API is a vast collection of functions that are organized into categories, such as graphics, user interface, networking, and security, etc.

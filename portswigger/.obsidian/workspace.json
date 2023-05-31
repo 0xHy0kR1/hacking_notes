@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "3c3841a956721319",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb1c40b326f786a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fc0d6bffdd3b613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL injection/Examining the database/Listing the contents of the database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b517af3a0cb0161",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL injection/SQL injection cheat sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2eaeee78517c1548",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL injection/Examining the database/query database type and version.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00fda543b96e0051",
+    "type": "split",
+    "children": [
+      {
+        "id": "da06f756f99d7b30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc9e612eaa153e06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "247cded2b850701d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6768bb60490a008a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 501.5
+  },
+  "right": {
+    "id": "00ff191d4eae4c8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d51dabd328f40cc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "724084a2899dfbcc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SQL injection/Examining the database/Listing the contents of the database.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "656ac4f4231037d6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SQL injection/Examining the database/Listing the contents of the database.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "de2f5482ccd57da0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "98a70cdf64de5f4b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SQL injection/Examining the database/Listing the contents of the database.md"
+              }
+            }
+          },
+          {
+            "id": "ce38cded0bfe21e9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5fc0d6bffdd3b613",
+  "lastOpenFiles": [
+    "SQL injection/images/SQL_injection_listing_database_contents_oracle1.png",
+    "SQL injection/images/SQL_injection_listing_database_contents9.png",
+    "SQL injection/images/SQL_injection_listing_database_contents8.png",
+    "SQL injection/images/SQL_injection_listing_database_contents7.png",
+    "SQL injection/images/SQL_injection_listing_database_contents6.png",
+    "SQL injection/images/SQL_injection_listing_database_contents5.png",
+    "SQL injection/SQL injection cheat sheet.md",
+    "SQL injection/Examining the database/Listing the contents of the database.md",
+    "SQL injection/images/SQL_injection_listing_database_contents4.png",
+    "SQL injection/Examining the database/query database type and version.md",
+    "SQL injection/images/SQL_injection_listing_database_contents3.png",
+    "SQL injection/images/SQL_injection_listing_database_contents2.png",
+    "SQL injection/images/SQL_injection_listing_database_contents1.png",
+    "SQL injection/images/SQL_examining_database_type_version_result_microsoft_mysql.png",
+    "SQL injection/Retrieving data from other tables/UNION attack to retrieve interesting data from other tables.md",
+    "SQL injection/Examining the database"
+  ]
+}

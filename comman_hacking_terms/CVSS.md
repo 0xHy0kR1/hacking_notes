@@ -1,0 +1,6 @@
+- CVSS stands for Common Vulnerability Scoring System.
+- It is a framework used to assess the severity of software vulnerabilities and to assign them a score based on their potential impact on a system or network.
+- The CVSS score is designed to provide a standardized, objective way to evaluate and prioritize vulnerabilities and to help organizations decide which vulnerabilities to address first.
+- The CVSS score is a numeric value between 0 and 10, with higher scores indicating more severe vulnerabilities.
+- A CVSS score of 10 is considered the most severe, indicating a vulnerability that can be easily exploited and could have a significant impact on the affected system or network.
+- 

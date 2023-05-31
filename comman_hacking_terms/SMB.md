@@ -1,0 +1,3 @@
+- SMB stands for Server Message Block, which is a way for computers to share files and printers with each other.
+- Think of it like a bunch of kids in a classroom who all want to share their toys with each other. But instead of toys, it's files and printers on their computers.The teacher (or "server") helps everyone share their toys by making sure each person gets a turn and that everyone plays nicely together.
+- So when we talk about SMB, we're talking about the special way that computers talk to each other to share their files and printers. It's like a secret language they use to work together and share their stuff!

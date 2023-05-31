@@ -1,0 +1,4 @@
+# Pre-requisite - [[DLL]]
+- DLL(Dynamic Link Library) injection is a technique used by software developers and attackers to inject a DLL file into a running process in a windows operating system. 
+- For example, an attacker inject a DLL file into a running process in order to monitor its activity, capture sensitive information such as passwords or keystrokes, or execute commands on the system.
+- In Metasploit, DLL injection is commonly used as a technique to execute Meterpreter payloads within a compromised system. By injecting a DLL file into a running process, Metasploit can execute code on the system without creating any new processes or files that could be detected by antivirus software or other security measures. 

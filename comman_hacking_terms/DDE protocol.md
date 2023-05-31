@@ -1,0 +1,2 @@
+- Additionally, Excel provides a protocol called DDE(Dynamic Data Exchange) that allows for communication between different programs running on the same computer. This protocol can be used to execute commands within the Excel program window.
+- This can lead to security vulnerabilities because an attacker can create a CSV file with malicious code(such as a formula that executes a command) and trick someone into opening it in Excel, which will execute the malicious code due to the DDE protocol. 

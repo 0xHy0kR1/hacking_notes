@@ -1,0 +1,2 @@
+- LSASS stands for Local Security Authority Subsystem Service, which is a Windows system process responsible for security related functions, such as enforcing security policies and handling authentication requests.
+- When a user logs in to a Windows computer, their credentials are temporarily stored in memory by the LSASS process to be used for authentication request.

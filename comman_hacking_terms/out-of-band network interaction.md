@@ -1,0 +1,2 @@
+- In simple terms, "triggering an out-of-band network interaction" means initiating a communication or connection that happens separately from the usual or main channel of communication.
+- It could involve using a different network connection, a different protocol, or a separate path to exchange information. The purpose of triggering an out-of-band network interaction is often to enable special or emergency communication that can't be achieved through the normal channels.

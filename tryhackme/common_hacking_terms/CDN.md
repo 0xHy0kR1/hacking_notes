@@ -1,0 +1,2 @@
+- A content delivery network is a network of servers spread out across different locations around the world. These servers are strategically placed in various geographic locations, often close to where users are located.
+- The purpose of a CDN is to store and deliver copies of web content, such as images, videos, documents, or entire websites, in a way that makes them more easily and quickly accessible to users.

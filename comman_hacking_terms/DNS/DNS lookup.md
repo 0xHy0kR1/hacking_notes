@@ -1,0 +1,1 @@
+- In simple terms, DNS lookup refers to the process of translating a human-friendly domain name (like [www.example.com](http://www.example.com)) into the numerical IP address (like 192.0.2.1) that computers use to locate and communicate with each other on the internet.
