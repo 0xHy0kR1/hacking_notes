@@ -13,41 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b615e006f94969cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aca7334b45bae6df",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "portswigger/SQL injection/images/blind_SQL_injection_conditional_responses8.png"
-              }
-            }
-          },
-          {
-            "id": "a322832ebdc2035a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "portswigger/SQL injection/Examining the database/query database type and version.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b33ba1891de03bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "portswigger/SQL injection/SQL injection cheat sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
+                "file": "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
+                "file": "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md"
+                "file": "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md"
               }
             }
           }
@@ -190,50 +168,51 @@
   },
   "active": "14ed548e9457cab9",
   "lastOpenFiles": [
-    "portswigger/SQL injection/Blind SQL injection/intro to Blind SQL injection.md",
-    "TCM security/Reconnaissance/passive/discovering email addresses.md",
-    "TCM security/images/voilanorbert_credentials.png",
-    "TCM security/images/phonebookcz_overview.png",
+    "portswigger/SQL injection/images/blind_SQL_injection_conditional_errors2.png",
     "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "portswigger/SQL injection/images/blind_SQL_injection_conditional_responses8.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_conditional_responses7.png",
+    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
+    "portswigger/SQL injection/images/blind_SQL_injection_conditional_errors1.png",
+    "portswigger/SQL injection/Blind SQL injection/intro to Blind SQL injection.md",
+    "TCM security/Reconnaissance/active/Scanning with nmap.md",
+    "TCM security/Reconnaissance/passive/google fu.md",
+    "TCM security/Reconnaissance/active",
+    "TCM security/images/google_fu2.png",
+    "TCM security/images/google_fu1.png",
+    "TCM security/Reconnaissance/passive/burp for information gathering.md",
+    "TCM security/images/burp_suite_Target_tab.png",
+    "TCM security/images/burp_suite_cert_manager.png",
+    "TCM security/images/burp_suite_CA_cert.png",
+    "TCM security/images/burp_suite_manual_proxy_settings.png",
+    "TCM security/Reconnaissance/passive/Identifying Website technologies.md",
+    "TCM security/images/wappalyzer_extension.png",
+    "TCM security/images/wappalyzer.png",
+    "TCM security/images/builtwith.png",
+    "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
+    "TCM security/Reconnaissance/passive/discovering email addresses.md",
+    "linux_concepts/packages and software repo.md",
+    "linux_concepts/Automation(cron).md",
+    "linux_concepts/processes/Processes.md",
+    "linux_concepts/Untitled",
+    "linux_concepts/Identifying the process corresponding to port.md",
+    "linux_concepts/Stoping the process or service.md",
+    "linux_concepts/images",
+    "linux_concepts/processes",
+    "TCM security/Reconnaissance/passive/passive reconnaissance overview.md",
     "linux_concepts/utilities/Serving files from your host(python server).md",
-    "tryhackme/images/python_server_ex.png",
     "linux_concepts/utilities/Transferring files from your machine SCP(Using SSH).md",
-    "tryhackme/images/scp_example2.png",
-    "tryhackme/images/scp_example1.png",
     "tryhackme/images",
     "linux_concepts/utilities/Downloading files from web(wget).md",
     "tryhackme/common_hacking_terms/CDN.md",
     "linux_concepts/utilities",
-    "linux_concepts/Untitled.md",
-    "portswigger/SQL injection/images/blind_SQL_injection_conditional_responses6.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_conditional_responses5.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_conditional_responses4.png",
-    "TCM security/Reconnaissance/passive/passive reconnaissance overview.md",
     "TCM security/images/overview_of_passive_recon",
     "TCM security/stages of hacking.md",
     "TCM security/Reconnaissance/passive",
     "TCM security/Reconnaissance/Untitled.md",
     "TCM security/Reconnaissance",
     "TCM security/images/five_stages_of_hacking",
-    "TCM security/images",
-    "TCM security",
     "portswigger/SQL injection/Examining the database/query database type and version.md",
     "comman_hacking_terms/HTTP/HTTP header.md",
     "comman_hacking_terms/HTTP/HTTP methods.md",
-    "portswigger/SQL injection/Blind SQL injection",
-    "comman_hacking_terms/HTTP/HTTP status code.md",
-    "Untitled.md",
-    "comman_hacking_terms/images",
-    "comman_hacking_terms/DNS/DNS record.md",
-    "comman_hacking_terms/Untitled.md",
-    "comman_hacking_terms/DNS/Authoritative DNS server.md",
-    "comman_hacking_terms/DNS/root server.md",
-    "comman_hacking_terms/DNS/Recursive DNS server.md",
-    "comman_hacking_terms/DNS/DNS lookup.md",
-    "tryhackme/common_hacking_terms/VPN.md",
-    "tryhackme/Untitled 1.md",
-    "comman_hacking_terms/out-of-band network interaction.md"
+    "comman_hacking_terms/HTTP/HTTP status code.md"
   ]
 }
