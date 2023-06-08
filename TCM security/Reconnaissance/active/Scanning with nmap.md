@@ -20,4 +20,30 @@
 ┌──(hyok㉿kali)-[~]
 └─$ sudo netdiscover -r 192.168.216.0/24
 ```
-  
+
+### Arp-scan 
+1. Scan the local network, using the information from the primary network interface:
+```python
+┌──(hyok㉿kali)-[~/Documents/hacking_notes]
+└─$ sudo arp-scan -l
+```
+
+2. Scan a subnet, specifying the interface to use and a custom source MAC address:
+```python
+┌──(hyok㉿kali)-[~/Documents/hacking_notes]
+└─$ sudo arp-scan -I eth0 --srcaddr=08:00:27:1a:7c:43 192.168.1.0/24
+```
+
+## nmap
+1. Scanning an entire ports(0-65365) and all of the services
+```python
+┌──(hyok㉿kali)-[~/Documents/hacking_notes]
+└─$ sudo nmap -T4 -p- -A 192.168.1.7
+```
+
+2. Scanning top 1000 ports with UDP
+
+## Kioptrix 
+**Password** - TwoCows2
+**Username** - john 
+**Ip address** - 192.168.1.7
