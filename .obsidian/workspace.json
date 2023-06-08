@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows_concepts/user accounts, profile, and permissions windows.md",
+                "file": "windows_concepts/computer management.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows_concepts/user accounts, profile, and permissions windows.md",
+                "file": "windows_concepts/computer management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows_concepts/user accounts, profile, and permissions windows.md",
+                "file": "windows_concepts/computer management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows_concepts/user accounts, profile, and permissions windows.md"
+                "file": "windows_concepts/computer management.md"
               }
             }
           }
@@ -169,27 +169,33 @@
   },
   "active": "14ed548e9457cab9",
   "lastOpenFiles": [
-    "windows_concepts/images/local_groups_windows_stuffs.png",
-    "windows_concepts/images/other_users_windows_stuff.png",
-    "windows_concepts/images/user_and_group_management_windows_stuffs.png",
-    "windows_concepts/images",
-    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
+    "windows_concepts/images/computer_management6_windows_stuffs.png",
     "windows_concepts/user accounts, profile, and permissions windows.md",
-    "windows_concepts",
-    "portswigger/SQL injection/images/blind_SQL_injection_conditional_errors2.png",
-    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "portswigger/SQL injection/images/blind_SQL_injection_conditional_errors1.png",
-    "portswigger/SQL injection/Blind SQL injection/intro to Blind SQL injection.md",
+    "windows_concepts/computer management.md",
+    "windows_concepts/images/computer_management5_windows_stuffs.png",
+    "windows_concepts/images/computer_management4_windows_stuff.png",
+    "windows_concepts/images/shared_folders1_windows_stuffs.png",
+    "windows_concepts/images/computer_management3_windows_stuff.png",
+    "windows_concepts/images/computer_management2_windows_stuff.png",
+    "windows_concepts/Microsoft User Account Control(UAC).md",
+    "windows_concepts/images/computer_management1_windows_stuffs.png",
+    "windows_concepts/images/user_account_control1_windows_stuffs.png",
+    "windows_concepts/system configuration.md",
+    "windows_concepts/images/system_configuration6_windows_stuffs.png",
+    "windows_concepts/images/system_configuration5_windows_stuffs.png",
+    "windows_concepts/images/system_configuration4_windows_stuffs.png",
+    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
+    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
+    "TCM security/Reconnaissance/active/kioptrix/enumerating HTTP and HTTPS.md",
     "TCM security/Reconnaissance/active/Scanning with nmap.md",
+    "TCM security/Reconnaissance/active/kioptrix",
+    "windows_concepts/images",
+    "windows_concepts",
+    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
+    "portswigger/SQL injection/Blind SQL injection/intro to Blind SQL injection.md",
     "TCM security/Reconnaissance/passive/google fu.md",
     "TCM security/Reconnaissance/active",
-    "TCM security/images/google_fu2.png",
-    "TCM security/images/google_fu1.png",
     "TCM security/Reconnaissance/passive/burp for information gathering.md",
-    "TCM security/images/burp_suite_Target_tab.png",
-    "TCM security/images/burp_suite_cert_manager.png",
-    "TCM security/images/burp_suite_CA_cert.png",
-    "TCM security/images/burp_suite_manual_proxy_settings.png",
     "TCM security/Reconnaissance/passive/Identifying Website technologies.md",
     "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
     "TCM security/Reconnaissance/passive/discovering email addresses.md",
@@ -208,12 +214,6 @@
     "linux_concepts/utilities/Downloading files from web(wget).md",
     "tryhackme/common_hacking_terms/CDN.md",
     "linux_concepts/utilities",
-    "TCM security/images/overview_of_passive_recon",
-    "TCM security/stages of hacking.md",
-    "TCM security/Reconnaissance/passive",
-    "TCM security/Reconnaissance/Untitled.md",
-    "portswigger/SQL injection/Examining the database/query database type and version.md",
-    "comman_hacking_terms/HTTP/HTTP header.md",
-    "comman_hacking_terms/HTTP/HTTP methods.md"
+    "TCM security/images/overview_of_passive_recon"
   ]
 }
