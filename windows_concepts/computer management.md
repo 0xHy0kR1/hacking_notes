@@ -70,3 +70,32 @@ Related --> [[user accounts, profile, and permissions windows]]
 ![[computer_management6_windows_stuffs.png]]
 - Perfmon is used to view performance data either in real-time or from a log file.
 - This utility is useful for troubleshooting performance issues on a computer system, whether local or remote.
+
+## Device Manager
+It allows us to view and configure the hardware, such as disabling any hardware attached to the computer.
+![[computer_management7_windows_stuffs.png]]
+
+## Storage
+Under Storage is **Windows Server Backup** and **Disk Management**.
+![[computer_management8_windows_stuffs.png]]
+
+### Disk Management
+Disk Management is a system utility in Windows that enables you to perform advanced storage tasks.
+
+Some tasks are:
+- Set up a new drive
+- Extend a partition
+- Shrink a partition
+- Assign or change a drive letter (ex. E:)
+![[computer_management9_windows_stuffs.png]]
+
+## Services and Applications
+- a service is a special type of application that runs in the background.
+- Here you can do more than enable and disable a service, such as view the Properties for the service.
+
+### WMI control
+WMI allows scripting languages (such as VBScript or Windows PowerShell) to manage Microsoft Windows personal computers and servers, both locally and remotely.
+![[computer_management10_windows_stuffs.png]]
+Microsoft also provides a command-line interface to WMI called Windows Management Instrumentation Command-line (WMIC).
+
+**Note**: The WMIC tool is deprecated in Windows 10, version 21H1. Windows PowerShell supersedes this tool for WMI.
