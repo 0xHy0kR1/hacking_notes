@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
+                "file": "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "891704ed963e3013",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "portswigger/SQL injection/SQL injection cheat sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "620037a81f3f3ad6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5
+    "width": 451.5
   },
   "right": {
     "id": "59258a95442c3a2d",
@@ -93,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
+                "file": "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
+                "file": "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/Reconnaissance/active/Web vulnerability scanning.md"
+                "file": "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md"
               }
             }
           }
@@ -157,44 +181,44 @@
   },
   "active": "399471395801c094",
   "lastOpenFiles": [
+    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval13.png",
+    "portswigger/SQL injection/Blind SQL injection/Extracting sensitive data via verbose SQL error messages.md",
     "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
-    "TCM security/images/kioptrix_smb_version.png",
+    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with time delays and information retrieval.md",
+    "TCM security/images/kioptrix_smb_version_exploits.png",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval12.png",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval11.png",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval10.png",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval9.png",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval8.png",
+    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
+    "portswigger/SQL injection/SQL injection cheat sheet.md",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval7.png",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval6.png",
+    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval5.png",
+    "windows_concepts/Volume Shadow Copies (VSS).md",
+    "windows_concepts/windows security.md",
     "TCM security/Reconnaissance/active/Scanning with nmap.md",
+    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
     "TCM security/Reconnaissance/passive/Identifying Website technologies.md",
     "TCM security/Reconnaissance/passive/passive reconnaissance overview.md",
     "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
     "TCM security/Reconnaissance/passive/google fu.md",
     "TCM security/Reconnaissance/passive/discovering email addresses.md",
-    "TCM security/images/kioptrix_server_disclosure1.png",
-    "windows_concepts/windows security.md",
-    "windows_concepts/images/windows_security1_windows_stuffs.png",
     "windows_concepts/registry editor.md",
     "windows_concepts/images/Untitled.md",
     "windows_concepts/command prompt.md",
-    "windows_concepts/images/cmd5_windows_stuffs.png",
-    "windows_concepts/images/cmd4_windows_stuffs.png",
-    "windows_concepts/images/cmd3_windows_stuffs.png",
-    "windows_concepts/images/cmd2_windows_stuffs.png",
-    "windows_concepts/images/cmd1_windows_stuffs.png",
-    "portswigger/SQL injection/SQL injection cheat sheet.md",
-    "portswigger/SQL injection/Blind SQL injection/Extracting sensitive data via verbose SQL error messages.md",
-    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
-    "portswigger/SQL injection/images/SQL_injection_with_time_delays1.png",
     "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
-    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "portswigger/SQL injection/images/verbose_SQL_error_messages6.png",
     "TCM security/Reconnaissance/active/directory listing.md",
     "windows_concepts/Resource Monitor.md",
     "windows_concepts/system information(msinfo32) tool.md",
     "windows_concepts/computer management.md",
-    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
     "windows_concepts/user accounts, profile, and permissions windows.md",
     "windows_concepts/Microsoft User Account Control(UAC).md",
-    "windows_concepts/system configuration.md",
     "TCM security/Reconnaissance/active/kioptrix",
     "windows_concepts/images",
     "windows_concepts",
-    "portswigger/SQL injection/Blind SQL injection/intro to Blind SQL injection.md",
     "TCM security/Reconnaissance/active",
     "linux_concepts/Untitled",
     "linux_concepts/images",
