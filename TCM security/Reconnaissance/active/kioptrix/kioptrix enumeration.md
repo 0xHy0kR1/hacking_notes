@@ -74,3 +74,52 @@ RHOSTS => 192.168.1.7
 ```
 
 **Result** - We get the version of **SMB** which is Unix (Samba 2.2.1a)
+
+## Connecting to kioptrix SMB shares
+```python
+┌──(hyok㉿kali)-[~]
+└─$ smbclient -L \\192.168.1.7
+```
+**Result** - 
+```python
+Sharename       Type      Comment
+	---------       ----      -------
+	IPC$            IPC       IPC Service (Samba Server)
+	ADMIN$          IPC       IPC Service (Samba Server)
+```
+
+### Try connecting to ADMIN$ 
+```python
+┌──(hyok㉿kali)-[~]
+└─$ smbclient \\\\192.168.1.7\\ADMIN$
+Password for [WORKGROUP\hyok]:
+Server does not support EXTENDED_SECURITY  but 'client use spnego = yes' and 'client ntlmv2 auth = yes' is set
+Anonymous login successful
+tree connect failed: NT_STATUS_WRONG_PASSWORD
+```
+**Result** - We are not able to connect to it because it is password protected.
+
+### Try connecting to IPC$
+```python
+┌──(hyok㉿kali)-[~]
+└─$ smbclient \\\\192.168.1.7\\IPC$
+Password for [WORKGROUP\hyok]:
+Server does not support EXTENDED_SECURITY  but 'client use spnego = yes' and 'client ntlmv2 auth = yes' is set
+Anonymous login successful
+Try "help" to get a list of possible commands.
+smb: \> 
+```
+**Result** - We get access to **IPC$** share but we can't do anything like listing files. So, we move onto to SSH.
+
+**We are able to find the below exploits from google by searching like "mod_ssl 2.8.4 exploits"**
+## Exploits to exploit mod_ssl 2.8.4
+1. 80/443 - Potentially vulnerable to [OpenFuck](https://www.exploit-db.com/exploits/764), and https://github.com/heltonWernik/OpenLuck 
+
+## Exploits to exploit apache 1.3.20
+apache 1.3.20 is also vulnerable to above exploits
+
+**OpenSSL/0.9.6b is tied directly to mod_ssl, So we already find this exploits above.**
+
+## Exploits to exploit  Unix (Samba 2.2.1a)
+![[kioptrix_smb_version_exploits.png]]
+
