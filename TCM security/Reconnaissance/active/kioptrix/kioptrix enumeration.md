@@ -122,4 +122,25 @@ apache 1.3.20 is also vulnerable to above exploits
 
 ## Exploits to exploit  Unix (Samba 2.2.1a)
 ![[kioptrix_smb_version_exploits.png]]
+139 - Potentially vulnerable to https://www.rapid7.com/db/modules/exploit/linux/samba/trans2open/, and https://www.exploit-db.com/exploits/10, https://www.exploit-db.com/exploits/7
+
+## searching exploit-db for samba 2.2.1a exploits using searchsploit
+```python
+┌──(hyok㉿kali)-[~]
+└─$ searchsploit samba 2.2.1a
+---------------------------------------------- ---------------------------------
+ Exploit Title                                |  Path
+---------------------------------------------- ---------------------------------
+Samba 2.2.0 < 2.2.8 (OSX) - trans2open Overfl | osx/remote/9924.rb
+Samba < 2.2.8 (Linux/BSD) - Remote Code Execu | multiple/remote/10.c
+Samba < 3.0.20 - Remote Heap Overflow         | linux/remote/7701.txt
+Samba < 3.6.2 (x86) - Denial of Service (PoC) | linux_x86/dos/36741.py
+---------------------------------------------- ---------------------------------
+Shellcodes: No Results
+```
+**Note** - Remember that searchsploit search the exact string. So, it sometimes doesn't give you result but it has information.
+
+## Kioptrix note taking example
+![[kioptrix_note_taking_ex.png]]
+
 
