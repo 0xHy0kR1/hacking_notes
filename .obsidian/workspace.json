@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
+                "file": "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
+                "file": "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
+                "file": "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md"
+                "file": "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md"
               }
             }
           }
@@ -181,22 +181,24 @@
   },
   "active": "399471395801c094",
   "lastOpenFiles": [
+    "TCM security/images/nessus9.png",
+    "TCM security/images/nessus8.png",
+    "TCM security/images/nessus7.png",
+    "TCM security/images/nessus6.png",
+    "TCM security/images/nessus5.png",
+    "TCM security/images/nessus4.png",
+    "TCM security/images/nessus3.png",
+    "TCM security/images/nessus2.png",
+    "TCM security/images/nessus1.png",
+    "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
+    "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
+    "TCM security/images/kioptrix_note_taking_ex.png",
     "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
     "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval13.png",
     "portswigger/SQL injection/Blind SQL injection/Extracting sensitive data via verbose SQL error messages.md",
-    "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
     "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with time delays and information retrieval.md",
-    "TCM security/images/kioptrix_smb_version_exploits.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval12.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval11.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval10.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval9.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval8.png",
     "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
     "portswigger/SQL injection/SQL injection cheat sheet.md",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval7.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval6.png",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval5.png",
     "windows_concepts/Volume Shadow Copies (VSS).md",
     "windows_concepts/windows security.md",
     "TCM security/Reconnaissance/active/Scanning with nmap.md",
@@ -215,7 +217,6 @@
     "windows_concepts/system information(msinfo32) tool.md",
     "windows_concepts/computer management.md",
     "windows_concepts/user accounts, profile, and permissions windows.md",
-    "windows_concepts/Microsoft User Account Control(UAC).md",
     "TCM security/Reconnaissance/active/kioptrix",
     "windows_concepts/images",
     "windows_concepts",
