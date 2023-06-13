@@ -13,37 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
+                "file": "TCM security/kioptrix/kioptrix enumeration.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "891704ed963e3013",
+            "id": "be5dc25344650d20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "portswigger/SQL injection/SQL injection cheat sheet.md",
+                "file": "TCM security/kioptrix/kioptrix enumeration.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "620037a81f3f3ad6",
+            "id": "3ca1e4bf3c4f1730",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
+                "file": "TCM security/exploitation basics/staged vs non-staged payloads.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
+                "file": "TCM security/kioptrix/kioptrix enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
+                "file": "TCM security/kioptrix/kioptrix enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md"
+                "file": "TCM security/kioptrix/kioptrix enumeration.md"
               }
             }
           }
@@ -179,22 +180,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "399471395801c094",
+  "active": "86c4cb7824c89134",
   "lastOpenFiles": [
+    "TCM security/exploitation basics/bind shell vs reverse shell.md",
+    "TCM security/exploitation basics/staged vs non-staged payloads.md",
+    "TCM security/kioptrix/kioptrix enumeration.md",
+    "tryhackme/Vulnerability searching.md",
+    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with out-of-band interaction.md",
+    "TCM security/images/openfuck1.png",
+    "TCM security/images/staged_vs_non_staged.png",
+    "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
+    "TCM security/exploitation basics",
+    "TCM security/images/bind_shell.png",
+    "TCM security/images/reverse_shell.png",
     "TCM security/images/nessus9.png",
     "TCM security/images/nessus8.png",
     "TCM security/images/nessus7.png",
     "TCM security/images/nessus6.png",
     "TCM security/images/nessus5.png",
     "TCM security/images/nessus4.png",
-    "TCM security/images/nessus3.png",
-    "TCM security/images/nessus2.png",
-    "TCM security/images/nessus1.png",
-    "TCM security/Reconnaissance/active/kioptrix/kioptrix enumeration.md",
-    "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
-    "TCM security/images/kioptrix_note_taking_ex.png",
     "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
-    "portswigger/SQL injection/images/blind_SQL_injection_with_time_delay_info_retrieval13.png",
     "portswigger/SQL injection/Blind SQL injection/Extracting sensitive data via verbose SQL error messages.md",
     "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with time delays and information retrieval.md",
     "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
@@ -214,10 +219,7 @@
     "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
     "TCM security/Reconnaissance/active/directory listing.md",
     "windows_concepts/Resource Monitor.md",
-    "windows_concepts/system information(msinfo32) tool.md",
-    "windows_concepts/computer management.md",
-    "windows_concepts/user accounts, profile, and permissions windows.md",
-    "TCM security/Reconnaissance/active/kioptrix",
+    "TCM security/kioptrix",
     "windows_concepts/images",
     "windows_concepts",
     "TCM security/Reconnaissance/active",
@@ -225,7 +227,6 @@
     "linux_concepts/images",
     "linux_concepts/processes",
     "tryhackme/images",
-    "linux_concepts/utilities",
-    "TCM security/images/overview_of_passive_recon"
+    "linux_concepts/utilities"
   ]
 }
