@@ -1,0 +1,5 @@
+- The root name servers essentially keep track of the DNS servers in the next level down, choosing an appropriate one to redirect your request to. These lower level servers are called _Top-Level_ _Domain_ servers.
+- Top-Level Domain (TLD) servers are split up into extensions. So, for example, if you were searching for tryhackme**.com** your request would be redirected to a TLD server that handled `.com` domains.
+- If you were searching for bbc**.co.uk** your request would be redirected to a TLD server that handles `.co.uk` domains.
+- TLD servers keep track of the next level down: Authoritative name servers.
+- When a TLD server receives your request for information, the server passes it down to an appropriate Authoritative name server.

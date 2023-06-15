@@ -13,19 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/kioptrix/kioptrix enumeration.md",
+                "file": "Metasploit/Server side exploitation/Exploit windows server.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "be5dc25344650d20",
+            "id": "ba254ab04f9b9cc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/kioptrix/kioptrix enumeration.md",
+                "file": "Metasploit/active information gathering/SMB/The MS17-010 SMB RCE Detection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ca534ebcc558a4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "comman_hacking_terms/MS17-010 vulnerability.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7b3e8d39d2a4470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "comman_hacking_terms/buffer overflow.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,9 +66,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ac87b9d00e5d5e3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/TCP connect scan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbda5bbf0459a0a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/Syn scan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -118,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/kioptrix/kioptrix enumeration.md",
+                "file": "TCM security/exploitation basics/staged vs non-staged payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/kioptrix/kioptrix enumeration.md",
+                "file": "TCM security/exploitation basics/staged vs non-staged payloads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/kioptrix/kioptrix enumeration.md"
+                "file": "TCM security/exploitation basics/staged vs non-staged payloads.md"
               }
             }
           }
@@ -180,53 +228,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86c4cb7824c89134",
+  "active": "3ca1e4bf3c4f1730",
   "lastOpenFiles": [
-    "TCM security/exploitation basics/bind shell vs reverse shell.md",
+    "tryhackme/nmap/images/UDP scan.md",
+    "tryhackme/nmap/Syn scan.md",
+    "tryhackme/nmap/TCP connect scan.md",
+    "comman_hacking_terms/buffer overflow.md",
+    "tryhackme/nmap/images/nmap2.png",
+    "tryhackme/nmap/Untitled",
+    "tryhackme/nmap/images/nmap1.png",
+    "tryhackme/nmap/images",
+    "tryhackme/nmap/scan types overview.md",
     "TCM security/exploitation basics/staged vs non-staged payloads.md",
-    "TCM security/kioptrix/kioptrix enumeration.md",
-    "tryhackme/Vulnerability searching.md",
-    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with out-of-band interaction.md",
+    "tryhackme/nmap",
+    "vulMN/kioptrix(192.168.1.7)/kioptrix enumeration.md",
+    "vulMN/kioptrix(192.168.1.7)/images/http_https_open_ports1.png",
+    "vulMN/kioptrix(192.168.1.7)/images",
+    "vulMN/images",
+    "vulMN/Blue(192.168.1.9)/exploits/MS17-010 EternalBlue SMB.md",
+    "vulMN/Blue(192.168.1.9)/nmap/open_ports_with_services/445_SMB.md",
+    "vulMN/Blue(192.168.1.9)/report/notes.md",
+    "vulMN/Blue(192.168.1.9)/report",
+    "vulMN/Blue(192.168.1.9)/exploits/Untitled.md",
+    "Metasploit/active information gathering/SMB/The MS17-010 SMB RCE Detection.md",
+    "Metasploit/Server side exploitation/Exploit windows server.md",
+    "vulMN/Blue(192.168.1.9)/exploits",
+    "Metasploit/active information gathering/SMB/SMB Login Check Scanner.md",
+    "comman_hacking_terms/MS17-010 vulnerability.md",
+    "Metasploit/active information gathering/SMB/SMB Extra.md",
+    "vulMN/Blue(192.168.1.9)/nmap/open_ports_with_services",
+    "vulMN/Blue(192.168.1.9)/nmap/nmap scan.md",
+    "vulMN/Blue(192.168.1.9)/nmap",
+    "vulMN/kioptrix(192.168.1.7)",
+    "Metasploit/Server side exploitation/Exploiting windows server when we have credentials.md",
+    "comman_hacking_terms/IPC$ tree.md",
+    "Metasploit/Server side exploitation/Denial of Service using MS15-034.md",
+    "Metasploit/Server side exploitation/Denial of Service using  SMBLoris.md",
+    "Metasploit/active information gathering/SMB/SMB User Enumeration.md",
+    "Metasploit/active information gathering/SMB/SMB Version Detection.md",
+    "TCM security/Reconnaissance/active/Scanning with nmap.md",
+    "TCM security/Blue(192.168.1.9)/nmap/nmap scan.md",
+    "tryhackme/networking tools/dig.md",
+    "portswigger/SQL injection/images/SQL_injection_in_different_context2.png",
+    "portswigger/SQL injection/images/SQL_injection_in_different_context1.png",
+    "portswigger/SQL injection/images/hackvertor_install.png",
+    "TCM security/images/our_notes_so_far.png",
     "TCM security/images/openfuck1.png",
     "TCM security/images/staged_vs_non_staged.png",
-    "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
-    "TCM security/exploitation basics",
-    "TCM security/images/bind_shell.png",
-    "TCM security/images/reverse_shell.png",
-    "TCM security/images/nessus9.png",
-    "TCM security/images/nessus8.png",
-    "TCM security/images/nessus7.png",
-    "TCM security/images/nessus6.png",
-    "TCM security/images/nessus5.png",
-    "TCM security/images/nessus4.png",
-    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
-    "portswigger/SQL injection/Blind SQL injection/Extracting sensitive data via verbose SQL error messages.md",
-    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with time delays and information retrieval.md",
-    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "portswigger/SQL injection/SQL injection cheat sheet.md",
-    "windows_concepts/Volume Shadow Copies (VSS).md",
-    "windows_concepts/windows security.md",
-    "TCM security/Reconnaissance/active/Scanning with nmap.md",
-    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
-    "TCM security/Reconnaissance/passive/Identifying Website technologies.md",
-    "TCM security/Reconnaissance/passive/passive reconnaissance overview.md",
-    "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
-    "TCM security/Reconnaissance/passive/google fu.md",
-    "TCM security/Reconnaissance/passive/discovering email addresses.md",
-    "windows_concepts/registry editor.md",
-    "windows_concepts/images/Untitled.md",
-    "windows_concepts/command prompt.md",
-    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
-    "TCM security/Reconnaissance/active/directory listing.md",
-    "windows_concepts/Resource Monitor.md",
-    "TCM security/kioptrix",
-    "windows_concepts/images",
-    "windows_concepts",
-    "TCM security/Reconnaissance/active",
-    "linux_concepts/Untitled",
-    "linux_concepts/images",
-    "linux_concepts/processes",
-    "tryhackme/images",
-    "linux_concepts/utilities"
+    "TCM security/images/bind_shell.png"
   ]
 }
