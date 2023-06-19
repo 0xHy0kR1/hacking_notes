@@ -40,10 +40,3 @@
 ┌──(hyok㉿kali)-[~/Documents/hacking_notes]
 └─$ sudo nmap -T4 -p- -A 192.168.1.7
 ```
-
-2. Scanning top 1000 ports with UDP
-
-## Kioptrix 
-**Password** - TwoCows2
-**Username** - john 
-**Ip address** - 192.168.1.7
