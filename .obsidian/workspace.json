@@ -61,7 +61,115 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/exploitation basics/staged vs non-staged payloads.md",
+                "file": "tryhackme/nmap/TCP connect scan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af7c6224f083a7c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/UDP scan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b60c76138e65b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/NULL, FIN and Xmas scans.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6f8aa574204e698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/NULL, FIN and Xmas scans.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28dc7fb850268f8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/ICMP network scanning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eed4c98ebdbcd6cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/NSE scripts/NSE overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "157e6de8a48e1e98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/NSE scripts/Working with NSE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3170d988b1787f5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/nmap/NSE scripts/Searching for scripts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f0de205c1862fcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "comman_hacking_terms/DNS/DNS record.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36bb1c5353c4e713",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "comman_hacking_terms/DNS/DNS record.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -166,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/exploitation basics/staged vs non-staged payloads.md",
+                "file": "comman_hacking_terms/DNS/DNS record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/exploitation basics/staged vs non-staged payloads.md",
+                "file": "comman_hacking_terms/DNS/DNS record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/exploitation basics/staged vs non-staged payloads.md"
+                "file": "comman_hacking_terms/DNS/DNS record.md"
               }
             }
           }
@@ -228,53 +336,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ca1e4bf3c4f1730",
+  "active": "36bb1c5353c4e713",
   "lastOpenFiles": [
+    "comman_hacking_terms/DNS/Authoritative DNS server.md",
+    "comman_hacking_terms/images/web_general.png",
+    "comman_hacking_terms/HTTP/HTTP header.md",
+    "comman_hacking_terms/HTTP/HTTP methods.md",
+    "comman_hacking_terms/HTTP/HTTP status code.md",
+    "comman_hacking_terms/DNS/DNS record.md",
+    "comman_hacking_terms/DNS/top-level domain server.md",
+    "comman_hacking_terms/DNS/Recursive DNS server.md",
+    "comman_hacking_terms/DNS/DNS lookup.md",
+    "comman_hacking_terms/DNS/DNS server.md",
+    "TCM security/Reconnaissance/active/directory listing.md",
+    "TCM security/Reconnaissance/active/Scanning with nmap.md",
+    "tryhackme/nmap/images/nmap9.png",
+    "tryhackme/nmap/images/nmap8.png",
+    "tryhackme/nmap/images/nmap7.png",
+    "tryhackme/nmap/images/nmap6.png",
+    "tryhackme/nmap/NSE scripts/Working with NSE.md",
+    "tryhackme/nmap/NSE scripts/Searching for scripts.md",
+    "tryhackme/nmap/NSE scripts/NSE overview.md",
+    "tryhackme/nmap/ICMP network scanning.md",
+    "tryhackme/nmap/NSE scripts",
+    "tryhackme/nmap/NULL, FIN and Xmas scans.md",
+    "tryhackme/nmap/images/nmap5.png",
+    "tryhackme/services/ftp(21)/ftp enumeration.md",
+    "tryhackme/services/images/ftp2.png",
+    "tryhackme/services/images/ftp1.png",
+    "tryhackme/services/images",
+    "tryhackme/services/ftp1",
+    "tryhackme/services/ftp(21)",
+    "tryhackme/services",
+    "tryhackme/nmap/images/nmap4.png",
+    "tryhackme/nmap/images/nmap3.png",
+    "tryhackme/nmap/UDP scan.md",
+    "tryhackme/nmap/TCP connect scan.md",
+    "TCM security/exploitation basics/staged vs non-staged payloads.md",
     "tryhackme/nmap/images/UDP scan.md",
     "tryhackme/nmap/Syn scan.md",
-    "tryhackme/nmap/TCP connect scan.md",
     "comman_hacking_terms/buffer overflow.md",
-    "tryhackme/nmap/images/nmap2.png",
-    "tryhackme/nmap/Untitled",
-    "tryhackme/nmap/images/nmap1.png",
     "tryhackme/nmap/images",
     "tryhackme/nmap/scan types overview.md",
-    "TCM security/exploitation basics/staged vs non-staged payloads.md",
     "tryhackme/nmap",
     "vulMN/kioptrix(192.168.1.7)/kioptrix enumeration.md",
-    "vulMN/kioptrix(192.168.1.7)/images/http_https_open_ports1.png",
     "vulMN/kioptrix(192.168.1.7)/images",
     "vulMN/images",
-    "vulMN/Blue(192.168.1.9)/exploits/MS17-010 EternalBlue SMB.md",
-    "vulMN/Blue(192.168.1.9)/nmap/open_ports_with_services/445_SMB.md",
-    "vulMN/Blue(192.168.1.9)/report/notes.md",
-    "vulMN/Blue(192.168.1.9)/report",
-    "vulMN/Blue(192.168.1.9)/exploits/Untitled.md",
-    "Metasploit/active information gathering/SMB/The MS17-010 SMB RCE Detection.md",
-    "Metasploit/Server side exploitation/Exploit windows server.md",
-    "vulMN/Blue(192.168.1.9)/exploits",
-    "Metasploit/active information gathering/SMB/SMB Login Check Scanner.md",
-    "comman_hacking_terms/MS17-010 vulnerability.md",
-    "Metasploit/active information gathering/SMB/SMB Extra.md",
-    "vulMN/Blue(192.168.1.9)/nmap/open_ports_with_services",
-    "vulMN/Blue(192.168.1.9)/nmap/nmap scan.md",
-    "vulMN/Blue(192.168.1.9)/nmap",
-    "vulMN/kioptrix(192.168.1.7)",
-    "Metasploit/Server side exploitation/Exploiting windows server when we have credentials.md",
-    "comman_hacking_terms/IPC$ tree.md",
-    "Metasploit/Server side exploitation/Denial of Service using MS15-034.md",
-    "Metasploit/Server side exploitation/Denial of Service using  SMBLoris.md",
-    "Metasploit/active information gathering/SMB/SMB User Enumeration.md",
-    "Metasploit/active information gathering/SMB/SMB Version Detection.md",
-    "TCM security/Reconnaissance/active/Scanning with nmap.md",
-    "TCM security/Blue(192.168.1.9)/nmap/nmap scan.md",
-    "tryhackme/networking tools/dig.md",
-    "portswigger/SQL injection/images/SQL_injection_in_different_context2.png",
-    "portswigger/SQL injection/images/SQL_injection_in_different_context1.png",
-    "portswigger/SQL injection/images/hackvertor_install.png",
-    "TCM security/images/our_notes_so_far.png",
-    "TCM security/images/openfuck1.png",
-    "TCM security/images/staged_vs_non_staged.png",
-    "TCM security/images/bind_shell.png"
+    "vulMN/Blue(192.168.1.9)/report"
   ]
 }
