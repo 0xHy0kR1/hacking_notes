@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "comman_hacking_terms/DNS/DNS record.md",
+                "file": "tryhackme/services/ftp(21)/exploiting ftp.md",
                 "mode": "source",
                 "source": false
               }
@@ -274,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "comman_hacking_terms/DNS/DNS record.md",
+                "file": "tryhackme/services/ftp(21)/exploiting ftp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "comman_hacking_terms/DNS/DNS record.md",
+                "file": "tryhackme/services/ftp(21)/exploiting ftp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "comman_hacking_terms/DNS/DNS record.md"
+                "file": "tryhackme/services/ftp(21)/exploiting ftp.md"
               }
             }
           }
@@ -338,50 +338,51 @@
   },
   "active": "36bb1c5353c4e713",
   "lastOpenFiles": [
-    "comman_hacking_terms/DNS/Authoritative DNS server.md",
-    "comman_hacking_terms/images/web_general.png",
-    "comman_hacking_terms/HTTP/HTTP header.md",
-    "comman_hacking_terms/HTTP/HTTP methods.md",
-    "comman_hacking_terms/HTTP/HTTP status code.md",
-    "comman_hacking_terms/DNS/DNS record.md",
-    "comman_hacking_terms/DNS/top-level domain server.md",
-    "comman_hacking_terms/DNS/Recursive DNS server.md",
-    "comman_hacking_terms/DNS/DNS lookup.md",
-    "comman_hacking_terms/DNS/DNS server.md",
-    "TCM security/Reconnaissance/active/directory listing.md",
-    "TCM security/Reconnaissance/active/Scanning with nmap.md",
-    "tryhackme/nmap/images/nmap9.png",
-    "tryhackme/nmap/images/nmap8.png",
-    "tryhackme/nmap/images/nmap7.png",
-    "tryhackme/nmap/images/nmap6.png",
+    "tryhackme/services/images/ftp4.png",
+    "tryhackme/services/ftp(21)/ftp overview.md",
+    "tryhackme/services/ftp(21)/ftp enumeration.md",
+    "tryhackme/services/ftp(21)/exploiting ftp.md",
+    "tryhackme/services/images/ftp3.png",
+    "tryhackme/services/Telnet/exploiting telnet.md",
+    "tryhackme/services/images/telnet6.png",
+    "tryhackme/services/images/telnet5.png",
+    "tryhackme/services/images/telnet4.png",
+    "tryhackme/services/images/telnet3.png",
+    "tryhackme/services/images/telnet2.png",
+    "tryhackme/services/Telnet/Telnet enumeration.md",
+    "tryhackme/services/SMB(139_445)/exploiting SMB.md",
+    "tryhackme/services/images/telnet1.png",
+    "tryhackme/services/enumeration.md",
+    "tryhackme/services/SMB(139_445)/SMB enumeration.md",
+    "tryhackme/services/Telnet/Telnet overview.md",
+    "tryhackme/services/Telnet",
+    "tryhackme/services/SMB(139_445)/SMB overview.md",
+    "comman_hacking_terms/DOS.md",
+    "tryhackme/services/images/SMB1.png",
+    "tryhackme/nmap/firewall evasion.md",
+    "tryhackme/services/SMB(139_445)",
     "tryhackme/nmap/NSE scripts/Working with NSE.md",
     "tryhackme/nmap/NSE scripts/Searching for scripts.md",
-    "tryhackme/nmap/NSE scripts/NSE overview.md",
-    "tryhackme/nmap/ICMP network scanning.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via different responses(lab-1).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_different_responses3.png",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_different_responses2.png",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/overview of username enumeration.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/username_enumeration_via_different_responses1",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/overview of Vulnerabilities in password-based login.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration",
+    "portswigger/Authentication/Authentication overview.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms",
+    "portswigger/SQL injection/SQL injection Prevention Techniques.md",
+    "portswigger/Authentication",
+    "portswigger/Untitled.md",
+    "portswigger/SQL injection/first and second order SQL injection.md",
+    "portswigger/SQL injection/SQL injection in different contexts(WAF blocks SQL query).md",
+    "comman_hacking_terms/DNS/DNS record.md",
+    "comman_hacking_terms/DNS/Authoritative DNS server.md",
+    "comman_hacking_terms/DNS/DNS lookup.md",
     "tryhackme/nmap/NSE scripts",
-    "tryhackme/nmap/NULL, FIN and Xmas scans.md",
-    "tryhackme/nmap/images/nmap5.png",
-    "tryhackme/services/ftp(21)/ftp enumeration.md",
-    "tryhackme/services/images/ftp2.png",
-    "tryhackme/services/images/ftp1.png",
-    "tryhackme/services/images",
-    "tryhackme/services/ftp1",
-    "tryhackme/services/ftp(21)",
-    "tryhackme/services",
-    "tryhackme/nmap/images/nmap4.png",
-    "tryhackme/nmap/images/nmap3.png",
-    "tryhackme/nmap/UDP scan.md",
-    "tryhackme/nmap/TCP connect scan.md",
-    "TCM security/exploitation basics/staged vs non-staged payloads.md",
-    "tryhackme/nmap/images/UDP scan.md",
-    "tryhackme/nmap/Syn scan.md",
-    "comman_hacking_terms/buffer overflow.md",
-    "tryhackme/nmap/images",
-    "tryhackme/nmap/scan types overview.md",
-    "tryhackme/nmap",
-    "vulMN/kioptrix(192.168.1.7)/kioptrix enumeration.md",
-    "vulMN/kioptrix(192.168.1.7)/images",
-    "vulMN/images",
-    "vulMN/Blue(192.168.1.9)/report"
+    "tryhackme/services/images"
   ]
 }

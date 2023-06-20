@@ -26,3 +26,17 @@ For example, the following XML-based SQL injection uses an XML escape sequence t
 
 **After encoding** - 
 ![[SQL_injection_in_different_context2.png]]
+
+3. checking no. of columns:
+![[SQL_injection_in_different_context3.png]]
+**Result** - From right panel, we can clearly see that when I try to find that if there is two column then it returns **0 units** which indicates that there is only one column which contains **usernames** and **passwords** of users.
+
+4. Taking out username and password of all the users:
+query --> 
+```sql
+UNION SELECT username || '-' || password FROM users
+```
+
+**Below performing on burp**:
+![[SQL_injection_in_different_context4.png]]
+**Result** - Administrator password is ez17s9hjzskyj69471ms.
