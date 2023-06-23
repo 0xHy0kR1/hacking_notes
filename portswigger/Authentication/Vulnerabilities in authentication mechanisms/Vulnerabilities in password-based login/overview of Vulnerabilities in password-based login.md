@@ -4,6 +4,9 @@ For websites that adopt a password-based login process, users either register fo
 1. Brute-force attacks
 	- These attacks are typically automated using wordlists of usernames and passwords.
 	- It also involve in using basic logic or publicly available knowledge.
+	- The two most common ways of preventing brute-force attacks are:
+		- Locking the account that the remote user is trying to access if they make too many failed login attempts
+		- Blocking the remote user's IP address if they make too many login attempts in quick succession
 
 2. Brute-forcing usernames
 	- Usernames are especially easy to guess if they conform to a recognizable pattern, such as an email address. For example, business logins in the format `firstname.lastname@somecompany.com`.
