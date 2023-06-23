@@ -22,11 +22,12 @@ root@ip-10-10-0-197:~# mkdir /tmp/mount
 
 3. **Identify the NFS server:**
 	- Obtain the hostname or IP address of the NFS server that contains the shared files you want to access.
-**Example** - 
-
 
 4. **Mount the NFS share:**
 	- Use the `mount` command on the client system to mount the NFS share.
+```python
+mount -t nfs 10.10.0.197:/home /tmp/mount -nolock
+```
 
 **Syntax** - 
 ```python
@@ -58,3 +59,4 @@ Export list for 10.10.36.100:
 	/usr/sbin/showmount --> location of remote share
 
 	10.10.36.100 --> IP of remote server
+
