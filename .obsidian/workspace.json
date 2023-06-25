@@ -13,25 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/services/NFS(2049)/NFS enumeration.md",
+                "file": "tryhackme/services/SMTP(25)/exploiting SMTP.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ecb6d2e908303f8f",
+            "id": "55a93216537df7e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via different responses(lab-1).md",
+                "file": "TCM security/intro to exploit development(buffer overflow)/intro to buffer overflow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a6cbe7ff95831c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tryhackme/services/NFS(2049)/NFS enumeration.md",
+                "file": "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tryhackme/services/NFS(2049)/NFS enumeration.md",
+                "file": "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tryhackme/services/NFS(2049)/NFS enumeration.md"
+                "file": "TCM security/intro to exploit development(buffer overflow)/fuzzing.md"
               }
             }
           }
@@ -167,53 +180,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36bb1c5353c4e713",
+  "active": "9a6cbe7ff95831c5",
   "lastOpenFiles": [
-    "tryhackme/services/NFS(2049)/NFS overview.md",
-    "tryhackme/services/NFS(2049)/NFS enumeration.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via response timing(lab-3).md",
-    "tryhackme/services/NFS(2049)",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_response_timing3.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_response_timing2.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_response_timing1.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via different responses(lab-1).md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/x-forwarded-for header.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via subtly different responses(lab-2).md",
-    "tryhackme/nmap/Syn scan.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_subtly_different_responses9.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_subtly_different_responses8.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_subtly_different_responses7.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_subtly_different_responses6.png",
-    "comman_hacking_terms/DNS/DNS record.md",
-    "tryhackme/nmap/NSE scripts/Searching for scripts.md",
+    "TCM security/intro to exploit development(buffer overflow)/intro to buffer overflow.md",
+    "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
+    "tryhackme/services/MySQL/MySQL enumeration.md",
+    "tryhackme/services/MySQL/exploiting MySQL.md",
+    "tryhackme/services/MySQL/MySQL overview.md",
+    "tryhackme/services/images/MySQL3.png",
+    "tryhackme/services/images/MySQL2.png",
+    "tryhackme/services/images/MySQL1.png",
     "tryhackme/nmap/NSE scripts/Working with NSE.md",
-    "tryhackme/nmap/NSE scripts/NSE overview.md",
-    "tryhackme/nmap/ICMP network scanning.md",
-    "tryhackme/nmap/NULL, FIN and Xmas scans.md",
-    "tryhackme/nmap/UDP scan.md",
-    "tryhackme/nmap/TCP connect scan.md",
-    "tryhackme/services/enumeration.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_subtly_different_responses5.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_subtly_different_responses4.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration_via_subtly_different_responses3.png",
-    "tryhackme/services/ftp(21)/exploiting ftp.md",
-    "tryhackme/services/ftp(21)/ftp overview.md",
-    "tryhackme/services/ftp(21)/ftp enumeration.md",
-    "tryhackme/services/Telnet/exploiting telnet.md",
-    "tryhackme/services/Telnet/Telnet enumeration.md",
-    "tryhackme/services/SMB(139_445)/exploiting SMB.md",
+    "tryhackme/nmap/NSE scripts/Searching for scripts.md",
+    "tryhackme/services/SMTP(25)/SMTP enumeration.md",
     "tryhackme/services/SMB(139_445)/SMB enumeration.md",
-    "tryhackme/services/Telnet/Telnet overview.md",
-    "tryhackme/services/Telnet",
+    "tryhackme/services/NFS(2049)/NFS enumeration.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via account lock(Lab-5).md",
+    "tryhackme/services/MySQL",
+    "tryhackme/services/Untitled.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock3.png",
+    "tryhackme/services/SMTP(25)/exploiting SMTP.md",
+    "tryhackme/services/images/SMTP4.png",
+    "TCM security/intro to exploit development(buffer overflow)/Spiking.md",
+    "TCM security/images/anatomy_of_stack1.png",
+    "tryhackme/services/images/SMTP3.png",
+    "tryhackme/services/SMTP(25)/SMTP overview.md",
+    "tryhackme/services/images/SMTP2.png",
+    "tryhackme/services/images/SMTP1.png",
     "tryhackme/services/SMB(139_445)/SMB overview.md",
-    "comman_hacking_terms/DOS.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock2.png",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via different responses(lab-1).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/overview of Vulnerabilities in password-based login.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/overview of username enumeration.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Broken brute-force protection, IP block(Lab-4).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via response timing(lab-3).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via subtly different responses(lab-2).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/x-forwarded-for header.md",
+    "TCM security/exploitation basics/images",
+    "comman_hacking_terms/buffer overflow.md",
+    "tryhackme/services/NFS(2049)/exploiting NFS.md",
+    "TCM security/intro to exploit development(buffer overflow)",
+    "tryhackme/services/SMTP(25)",
+    "tryhackme/services/NFS(2049)/NFS overview.md",
+    "tryhackme/services/NFS(2049)",
+    "tryhackme/services/Telnet",
     "tryhackme/services/SMB(139_445)",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/username_enumeration_via_different_responses1",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms",
-    "portswigger/Authentication",
-    "tryhackme/nmap/NSE scripts"
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration"
   ]
 }
