@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
+                "file": "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via account lock(Lab-5).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b39d5122ac87bfac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TCM security/exploitation basics/finding the offset.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 451.5
+    "width": 529.5
   },
   "right": {
     "id": "59258a95442c3a2d",
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
+                "file": "TCM security/exploitation basics/finding the offset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
+                "file": "TCM security/exploitation basics/finding the offset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/intro to exploit development(buffer overflow)/fuzzing.md"
+                "file": "TCM security/exploitation basics/finding the offset.md"
               }
             }
           }
@@ -180,9 +192,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9a6cbe7ff95831c5",
+  "active": "86c4cb7824c89134",
   "lastOpenFiles": [
+    "TCM security/exploitation basics/images/buffer_overflow3.png",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock4.png",
+    "TCM security/exploitation basics/finding the offset.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via account lock(Lab-5).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock6.png",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock5.png",
     "TCM security/intro to exploit development(buffer overflow)/intro to buffer overflow.md",
+    "TCM security/intro to exploit development(buffer overflow)/Spiking.md",
+    "TCM security/intro to exploit development(buffer overflow)/finding the offset.md",
     "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
     "tryhackme/services/MySQL/MySQL enumeration.md",
     "tryhackme/services/MySQL/exploiting MySQL.md",
@@ -195,20 +215,15 @@
     "tryhackme/services/SMTP(25)/SMTP enumeration.md",
     "tryhackme/services/SMB(139_445)/SMB enumeration.md",
     "tryhackme/services/NFS(2049)/NFS enumeration.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via account lock(Lab-5).md",
     "tryhackme/services/MySQL",
     "tryhackme/services/Untitled.md",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock3.png",
     "tryhackme/services/SMTP(25)/exploiting SMTP.md",
     "tryhackme/services/images/SMTP4.png",
-    "TCM security/intro to exploit development(buffer overflow)/Spiking.md",
     "TCM security/images/anatomy_of_stack1.png",
     "tryhackme/services/images/SMTP3.png",
     "tryhackme/services/SMTP(25)/SMTP overview.md",
-    "tryhackme/services/images/SMTP2.png",
-    "tryhackme/services/images/SMTP1.png",
     "tryhackme/services/SMB(139_445)/SMB overview.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock2.png",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via different responses(lab-1).md",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/overview of Vulnerabilities in password-based login.md",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/overview of username enumeration.md",
@@ -217,11 +232,8 @@
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via subtly different responses(lab-2).md",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/x-forwarded-for header.md",
     "TCM security/exploitation basics/images",
-    "comman_hacking_terms/buffer overflow.md",
-    "tryhackme/services/NFS(2049)/exploiting NFS.md",
     "TCM security/intro to exploit development(buffer overflow)",
     "tryhackme/services/SMTP(25)",
-    "tryhackme/services/NFS(2049)/NFS overview.md",
     "tryhackme/services/NFS(2049)",
     "tryhackme/services/Telnet",
     "tryhackme/services/SMB(139_445)",
