@@ -1,34 +1,27 @@
-## We are going to solve this exercise using batch script:
-1. posting random data to test that we get reply back from server or not:
-```python
-┌──(hyok㉿kali)-[~/burp_scripts]
-└─$ curl -X POST -d "username=test&password=test" https://0ab000a60489ac2f84e514a4003e003a.web-security-academy.net/login
-```
+1. First we intercept the request and send to turbo intruder:
+right click on repeater > extensions > turbo intruder
+2. Select the basic.py script in **turbo intruder** tab and adding the below red box code:
+![[username_enumeration via_account_lock1.png]]
 
-2. Displaying the size of the page:
-   
-```python
-┌──(hyok㉿kali)-[~/burp_scripts]
-└─$ curl -X POST -d "username=test&password=test" -so /dev/null https://0ab000a60489ac2f84e514a4003e003a.web-security-academy.net/login -w '%{size_download}'
-3132 
-```
--so --> `-s` is for silent mode, so that we won't see any other progress bar and `o` is for any other contents of request gets redirected.
+2. Setting the path of username wordlists and grep line to extract the valid username:
+![[username_enumeration via_account_lock2.png]]
 
--d --> for data
+3. At the time of attack:
+![[username_enumeration via_account_lock3.png]]
+**Result** - The valid user is **user**.
 
--w --> getting the size of response page
-
-3. Checking that if any of the username is lock out
+4. Setting up password wordlists and injection for the password payload:
 ![[username_enumeration via_account_lock4.png]]
 
-4. Now, we output the result to a file:
-   You can redirect the output by just putting `> file_name.txt` at the end of command to redirect the output.
-
-5. Now, extracting the valid user from valid_user.txt file, as shown below;
+5. Setting up password positions for payload:
 ![[username_enumeration via_account_lock5.png]]
-**Result** - Valid user is "aq".
 
-6. Now, brute-forcing to get the password "aq" user:
-![[username_enumeration_via_different_responses6.png]]
+6. Setting up payload for password:
+![[username_enumeration via_account_lock6.png]]
 
-7. Now, extracting the valid user of correct pasword from valid_user.txt file, as shown below;
+7. Setting up extract text for attack:
+![[username_enumeration via_account_lock7.png]]
+
+9. Inside **Grep - Extract**:
+![[username_enumeration via_account_lock8.png]]
+10. At the time of attack, we found out username "accounts" and password "qwerty".
