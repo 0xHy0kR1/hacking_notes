@@ -4,59 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "2622c42ccd974229",
+        "id": "b9a404382b25a3b3",
         "type": "tabs",
         "children": [
           {
-            "id": "36bb1c5353c4e713",
+            "id": "399748a21ee08449",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/services/SMTP(25)/exploiting SMTP.md",
+                "file": "TCM security/intro to exploit development(buffer overflow)/finding the right module.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "55a93216537df7e4",
+            "id": "a241e727b5a05d67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/intro to exploit development(buffer overflow)/intro to buffer overflow.md",
+                "file": "TCM security/Active Directory/AD overview/logical AD components.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9a6cbe7ff95831c5",
+            "id": "546b73b22fadc5dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via account lock(Lab-5).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b39d5122ac87bfac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TCM security/exploitation basics/finding the offset.md",
+                "file": "TCM security/Active Directory/AD overview/Physical AD components.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/exploitation basics/finding the offset.md",
+                "file": "TCM security/Active Directory/AD overview/logical AD components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/exploitation basics/finding the offset.md",
+                "file": "TCM security/Active Directory/AD overview/logical AD components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/exploitation basics/finding the offset.md"
+                "file": "TCM security/Active Directory/AD overview/logical AD components.md"
               }
             }
           }
@@ -192,53 +180,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86c4cb7824c89134",
+  "active": "a241e727b5a05d67",
   "lastOpenFiles": [
-    "TCM security/exploitation basics/images/buffer_overflow3.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock4.png",
-    "TCM security/exploitation basics/finding the offset.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via account lock(Lab-5).md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock6.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock5.png",
-    "TCM security/intro to exploit development(buffer overflow)/intro to buffer overflow.md",
-    "TCM security/intro to exploit development(buffer overflow)/Spiking.md",
-    "TCM security/intro to exploit development(buffer overflow)/finding the offset.md",
-    "TCM security/intro to exploit development(buffer overflow)/fuzzing.md",
-    "tryhackme/services/MySQL/MySQL enumeration.md",
-    "tryhackme/services/MySQL/exploiting MySQL.md",
-    "tryhackme/services/MySQL/MySQL overview.md",
-    "tryhackme/services/images/MySQL3.png",
-    "tryhackme/services/images/MySQL2.png",
-    "tryhackme/services/images/MySQL1.png",
-    "tryhackme/nmap/NSE scripts/Working with NSE.md",
-    "tryhackme/nmap/NSE scripts/Searching for scripts.md",
-    "tryhackme/services/SMTP(25)/SMTP enumeration.md",
-    "tryhackme/services/SMB(139_445)/SMB enumeration.md",
-    "tryhackme/services/NFS(2049)/NFS enumeration.md",
-    "tryhackme/services/MySQL",
-    "tryhackme/services/Untitled.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images/username_enumeration via_account_lock3.png",
-    "tryhackme/services/SMTP(25)/exploiting SMTP.md",
-    "tryhackme/services/images/SMTP4.png",
-    "TCM security/images/anatomy_of_stack1.png",
-    "tryhackme/services/images/SMTP3.png",
-    "tryhackme/services/SMTP(25)/SMTP overview.md",
-    "tryhackme/services/SMB(139_445)/SMB overview.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via different responses(lab-1).md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/overview of Vulnerabilities in password-based login.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/overview of username enumeration.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Broken brute-force protection, IP block(Lab-4).md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via response timing(lab-3).md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/Username enumeration via subtly different responses(lab-2).md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/x-forwarded-for header.md",
-    "TCM security/exploitation basics/images",
-    "TCM security/intro to exploit development(buffer overflow)",
-    "tryhackme/services/SMTP(25)",
-    "tryhackme/services/NFS(2049)",
-    "tryhackme/services/Telnet",
-    "tryhackme/services/SMB(139_445)",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/images",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration/username_enumeration_via_different_responses1",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in password-based login/Username enumeration"
+    "TCM security/images/AD_DS_objects.png",
+    "TCM security/images/AD_DS_transitive_trusts.png",
+    "TCM security/images/AD_DS_directional_trusts.png",
+    "TCM security/images/AD_DS_forest.png",
+    "TCM security/images/AD_DS_tree_domain.png",
+    "TCM security/images/AD_domain.png",
+    "TCM security/Active Directory/AD overview/Physical AD components.md",
+    "TCM security/Active Directory/AD overview/logical AD components.md",
+    "TCM security/images/AD_DS_schema.png",
+    "TCM security/intro to exploit development(buffer overflow)/finding the right module.md",
+    "tryhackme/IDOR/IDOR.md",
+    "tryhackme/IDOR/Hashed IDs.md",
+    "tryhackme/images/encoded_ids.png",
+    "tryhackme/authentication bypass/cookie hash encoding.md",
+    "tryhackme/IDOR",
+    "tryhackme/images/hash_gen.png",
+    "tryhackme/authentication bypass/logic flaw(gathering someone password by your email).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/2FA broken logic(concept and lab-2).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images/2FA_broken_logic5.png",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images/2FA_broken_logic4.png",
+    "TCM security/Active Directory/AD overview/AD intro.md",
+    "comman_hacking_terms/Kerberos credentials.md",
+    "TCM security/intro to exploit development(buffer overflow)/Exploit dev using py3 and mona.md",
+    "TCM security/Active Directory/AD overview",
+    "TCM security/Active Directory",
+    "TCM security/intro to exploit development(buffer overflow)/generate shell code and gain root.md",
+    "tryhackme/authentication bypass/brute-force username password with ffuf.md",
+    "tryhackme/authentication bypass/username enumeration.md",
+    "tryhackme/subdomain enumeration/subdomain enumeration overview.md",
+    "tryhackme/authentication bypass",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/Bypassing 2FA(concept and Lab-1).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/multi-factor auth overview.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth",
+    "TCM security/intro to exploit development(buffer overflow)/Untitled",
+    "TCM security/exploitation basics/staged vs non-staged payloads.md",
+    "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
+    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
+    "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
+    "TCM security/Reconnaissance/active/Scanning with nmap.md",
+    "TCM security/Reconnaissance/active/directory listing.md",
+    "tryhackme/content_discovery/OSINT.md",
+    "tryhackme/subdomain enumeration",
+    "tryhackme/content_discovery/google hacking_or_dorking.md",
+    "tryhackme/content_discovery",
+    "tryhackme/services/MySQL"
   ]
 }
