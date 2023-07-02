@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/Active Directory/AD overview/logical AD components.md",
+                "file": "portswigger/Burp_suite_concepts/session handling rules.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,9 +42,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "582feccf00666afa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/Brute-forcing 2FA verification codes(lab-3).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e945dfd4aaafc8ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/file inclusion/file inclusion attack Remediation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e82da2b515b73f9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "portswigger/Burp_suite_concepts/session handling rules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -118,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/Active Directory/AD overview/logical AD components.md",
+                "file": "tryhackme/file inclusion/file inclusion attack Remediation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/Active Directory/AD overview/logical AD components.md",
+                "file": "tryhackme/file inclusion/file inclusion attack Remediation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/Active Directory/AD overview/logical AD components.md"
+                "file": "tryhackme/file inclusion/file inclusion attack Remediation.md"
               }
             }
           }
@@ -180,28 +216,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a241e727b5a05d67",
+  "active": "e945dfd4aaafc8ab",
   "lastOpenFiles": [
-    "TCM security/images/AD_DS_objects.png",
-    "TCM security/images/AD_DS_transitive_trusts.png",
-    "TCM security/images/AD_DS_directional_trusts.png",
-    "TCM security/images/AD_DS_forest.png",
-    "TCM security/images/AD_DS_tree_domain.png",
-    "TCM security/images/AD_domain.png",
-    "TCM security/Active Directory/AD overview/Physical AD components.md",
+    "tryhackme/file inclusion/Remote File Inclusion - RFI.md",
+    "tryhackme/file inclusion/file inclusion attack Remediation.md",
+    "tryhackme/images/file_inclusion12.png",
+    "tryhackme/file inclusion/local file inclusion(LFI).md",
+    "tryhackme/images/file_inclusion11.png",
+    "tryhackme/images/file_inclusion10.png",
+    "tryhackme/images/file_inclusion9.png",
+    "tryhackme/images/file_inclusion8.png",
+    "tryhackme/images/file_inclusion7.png",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/Brute-forcing 2FA verification codes(lab-3).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images/2FA_bypass_using_a_brute_force_attack1.png",
+    "portswigger/Burp_suite_concepts/Burp macros.md",
+    "portswigger/Burp_suite_concepts/images/macros17.png",
+    "portswigger/Burp_suite_concepts/images/macros16.png",
+    "portswigger/Burp_suite_concepts/images/macros15.png",
+    "portswigger/Burp_suite_concepts/session handling rules.md",
+    "portswigger/Burp_suite_concepts/Untitled",
+    "portswigger/Burp_suite_concepts/turbo intruder.md",
+    "tryhackme/file inclusion/path traversal.md",
+    "tryhackme/file inclusion/file inclusion overview.md",
+    "tryhackme/file inclusion",
+    "portswigger/Burp_suite_concepts/images",
     "TCM security/Active Directory/AD overview/logical AD components.md",
-    "TCM security/images/AD_DS_schema.png",
+    "portswigger/Burp_suite_concepts",
+    "TCM security/Active Directory/AD overview/Physical AD components.md",
     "TCM security/intro to exploit development(buffer overflow)/finding the right module.md",
     "tryhackme/IDOR/IDOR.md",
     "tryhackme/IDOR/Hashed IDs.md",
-    "tryhackme/images/encoded_ids.png",
     "tryhackme/authentication bypass/cookie hash encoding.md",
     "tryhackme/IDOR",
-    "tryhackme/images/hash_gen.png",
     "tryhackme/authentication bypass/logic flaw(gathering someone password by your email).md",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/2FA broken logic(concept and lab-2).md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images/2FA_broken_logic5.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images/2FA_broken_logic4.png",
     "TCM security/Active Directory/AD overview/AD intro.md",
     "comman_hacking_terms/Kerberos credentials.md",
     "TCM security/intro to exploit development(buffer overflow)/Exploit dev using py3 and mona.md",
@@ -215,18 +263,6 @@
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/Bypassing 2FA(concept and Lab-1).md",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/multi-factor auth overview.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth",
-    "TCM security/intro to exploit development(buffer overflow)/Untitled",
-    "TCM security/exploitation basics/staged vs non-staged payloads.md",
-    "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
-    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
-    "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
-    "TCM security/Reconnaissance/active/Scanning with nmap.md",
-    "TCM security/Reconnaissance/active/directory listing.md",
-    "tryhackme/content_discovery/OSINT.md",
-    "tryhackme/subdomain enumeration",
-    "tryhackme/content_discovery/google hacking_or_dorking.md",
-    "tryhackme/content_discovery",
-    "tryhackme/services/MySQL"
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth"
   ]
 }
