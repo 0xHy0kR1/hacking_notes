@@ -8,3 +8,5 @@
 - For all requests, add cookies from Burp's cookie jar.
 - For requests to a specific domain, validate that the current session with that application is still active. If the session is not active, run a macro to log back in to the application, and update the cookie jar with the resulting session token.
 - For requests to a specific URL containing the `__csrftoken` parameter, run a macro to obtain a valid `__csrftoken` value and use this value when making the request.
+
+**For information you can refer** --> [link](https://portswigger.net/burp/documentation/desktop/settings/sessions/session-handling-rules)
