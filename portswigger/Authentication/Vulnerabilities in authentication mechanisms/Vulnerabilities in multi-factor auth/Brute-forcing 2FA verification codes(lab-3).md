@@ -26,7 +26,5 @@ also tick on extensions.
 
 8. Now, click ok, ok, ok... and exit and send login2 post request to repeater from http history.
 9. Now, from repeater send login2 post request to **turbo intruder**.
-10. We are going to use the old script of **turbo intruder** to do this.
-![[2FA_bypass_using_a_brute_force_attack8.png]]
-
-11. 
+10. Finally find the password
+![[2FA_bypass_using_a_brute_force_attack9.png]]
