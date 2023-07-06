@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/XSS/stored XSS.md",
+                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cd3505348c76751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tryhackme/XSS/stored XSS.md",
+                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tryhackme/XSS/stored XSS.md",
+                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tryhackme/XSS/stored XSS.md"
+                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md"
               }
             }
           }
@@ -157,9 +169,23 @@
   },
   "active": "1277e6b92302314b",
   "lastOpenFiles": [
+    "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR overview.md",
+    "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning detection.md",
+    "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
+    "tryhackme/XSS/DOM Based XSS.md",
+    "tryhackme/XSS/images/XSS5.png",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/vulnerabilities in other auth/other auth overview.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/Brute-forcing 2FA verification codes(lab-3).md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/vulnerabilities in other auth",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/multi-factor auth overview.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images/2FA_bypass_using_a_brute_force_attack9.png",
+    "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
+    "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay overview.md",
+    "TCM security/attacking AD initial attack vectors/SMB relay attack/Discovering hosts with SMB signing disabled.md",
+    "TCM security/attacking AD initial attack vectors/LLMNR poisoning",
+    "tryhackme/XSS/stored XSS.md",
     "tryhackme/XSS/images/XSS4.png",
     "tryhackme/XSS/Refplected XSS.md",
-    "tryhackme/XSS/stored XSS.md",
     "tryhackme/XSS/images/XSS3.png",
     "tryhackme/XSS/images/XSS2.png",
     "tryhackme/XSS/images/XSS1.png",
@@ -174,9 +200,6 @@
     "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
     "TCM security/Reconnaissance/passive/Identifying Website technologies.md",
     "TCM security/Reconnaissance/passive/passive reconnaissance overview.md",
-    "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack overview.md",
-    "TCM security/attacking AD initial attack vectors/SMB relay attack/Discovering hosts with SMB signing disabled.md",
-    "TCM security/attacking AD initial attack vectors/LLMNR and NBT-NS.md",
     "tryhackme/services/SMB(139_445)/SMB overview.md",
     "TCM security/attacking AD initial attack vectors/images/SMB_relay_attack3.png",
     "TCM security/attacking AD initial attack vectors/images/SMB_relay_attack2.png",
@@ -186,22 +209,10 @@
     "tryhackme/nmap/NSE scripts/Working with NSE.md",
     "tryhackme/nmap/NSE scripts/Searching for scripts.md",
     "TCM security/images/AD_in_SMB_relay1.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/Brute-forcing 2FA verification codes(lab-3).md",
-    "TCM security/images/AD_in_SMB_relay6.png",
-    "TCM security/images/AD_in_SMB_relay5.png",
-    "TCM security/images/AD_in_SMB_relay4.png",
     "tryhackme/SSRF/images",
     "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/2FA broken logic(concept and lab-2).md",
     "tryhackme/SSRF",
-    "linux_concepts/resizing a logical volume.md",
     "TCM security/images/hyok.ovpn",
-    "TCM security/intro to exploit development(buffer overflow)/finding the right module.md",
-    "tryhackme/file inclusion/Remote File Inclusion - RFI.md",
-    "tryhackme/authentication bypass/logic flaw(gathering someone password by your email).md",
-    "tryhackme/authentication bypass/cookie hash encoding.md",
-    "tryhackme/authentication bypass/brute-force username password with ffuf.md",
-    "TCM security/attacking AD initial attack vectors/common terms",
-    "TCM security/attacking AD initial attack vectors",
-    "portswigger/Burp_suite_concepts/Untitled"
+    "TCM security/attacking AD initial attack vectors/common terms"
   ]
 }
