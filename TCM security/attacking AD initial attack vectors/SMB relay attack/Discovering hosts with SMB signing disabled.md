@@ -10,8 +10,9 @@ SMB relay attack is not possible
 
 2. Output to fcastle:
 	![[SMB_relay_attack2.png]]
-smb relay attack is possible.
+smb relay attack is possible('Message signing enabled but not required' meaning we can perform a SMB relay attack as signing is not required.)
 
 3. Output to pparker:
 	![[SMB_relay_attack3.png]]
 	SMB relay attack is possible
+	('Message signing enabled but not required' meaning we can perform a SMB relay attack as signing is not required.)
