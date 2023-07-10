@@ -1,0 +1,1 @@
+Go to **~/Documents/PowerView** to access powerview cheatsheet.

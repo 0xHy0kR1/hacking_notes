@@ -18,5 +18,5 @@ SMB signing verifies the origin and authenticity of SMB packets. Effectively thi
 ## Pre-requisite --> [LLMNR poisoning]
 - With LLMNR poisoning we are able to capture password hash
 
-
+![[SMB_relay_attack7.png]]
 
