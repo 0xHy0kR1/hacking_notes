@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
+                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,8 +30,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9b17b39f89dc2ca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8cb4c336d8ec026a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TCM security/AD post compromise enum/powerview cheatsheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb3b15b13dff1244",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "TCM security/attacking AD initial attack vectors/images/compromise_ipv4_via_ipv6_2.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
+                "file": "TCM security/AD post compromise enum/powerview cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
+                "file": "TCM security/AD post compromise enum/powerview cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md"
+                "file": "TCM security/AD post compromise enum/powerview cheatsheet.md"
               }
             }
           }
@@ -158,61 +193,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "1277e6b92302314b",
+  "active": "8cb4c336d8ec026a",
   "lastOpenFiles": [
-    "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR overview.md",
-    "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning detection.md",
-    "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
-    "tryhackme/XSS/DOM Based XSS.md",
-    "tryhackme/XSS/images/XSS5.png",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/vulnerabilities in other auth/other auth overview.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/Brute-forcing 2FA verification codes(lab-3).md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/vulnerabilities in other auth",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/multi-factor auth overview.md",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/images/2FA_bypass_using_a_brute_force_attack9.png",
-    "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
     "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay overview.md",
+    "TCM security/AD post compromise enum/images/AD_post_compromise_enum1.png",
+    "TCM security/AD post compromise enum/powerview cheatsheet.md",
+    "tryhackme/SQL injection/In-band SQLi.md",
+    "tryhackme/SQL injection/SQL intro.md",
+    "portswigger/SQL injection/Intro to SQLi vulnerability.md",
+    "portswigger/SQL injection/Checking the vulnerability of SQL injection.md",
+    "portswigger/SQL injection/first and second order SQL injection.md",
+    "tryhackme/SQL injection/DATABASE overview.md",
+    "tryhackme/SQL injection/images/SQL1.png",
+    "tryhackme/SQL injection/images",
+    "TCM security/attacking AD initial attack vectors/compromising IPv4 networks via IPv6(mitm6)/Attack phase 2 – DNS spoofing.md",
+    "tryhackme/SQL injection",
+    "TCM security/AD post compromise enum/images",
+    "TCM security/AD post compromise enum",
+    "TCM security/attacking AD initial attack vectors/images/compromise_ipv4_via_ipv6_5.png",
+    "TCM security/attacking AD initial attack vectors/images/compromise_ipv4_via_ipv6_4.png",
+    "TCM security/attacking AD initial attack vectors/images/compromise_ipv4_via_ipv6_2.png",
+    "TCM security/attacking AD initial attack vectors/images/compromise_ipv4_via_ipv6_3.png",
+    "TCM security/attacking AD initial attack vectors/compromising IPv4 networks via IPv6(mitm6)/Attack phase 1 – Primary DNS takeover.md",
+    "TCM security/attacking AD initial attack vectors/compromising IPv4 networks via IPv6(mitm6)/overview to compromising IPv4 networks via IPv6.md",
+    "TCM security/attacking AD initial attack vectors/images/AD_other_strategies.png",
+    "TCM security/attacking AD initial attack vectors/images/compromise_ipv4_via_ipv6_1.png",
+    "tryhackme/command injection/Exploiting command injection.md",
+    "tryhackme/command injection/Remediating Command Injection.md",
+    "tryhackme/command injection/images/ci7.png",
+    "tryhackme/command injection/images/ci6.png",
+    "tryhackme/command injection/Discovering command injection.md",
+    "tryhackme/command injection/images",
+    "tryhackme/command injection/command injection overview.md",
+    "TCM security/attacking AD initial attack vectors/compromising IPv4 networks via IPv6/Full attack.md",
+    "TCM security/attacking AD initial attack vectors/compromising IPv4 networks via IPv6(mitm6)",
+    "tryhackme/XSS/XSS polygots.md",
+    "tryhackme/command injection",
+    "tryhackme/Untitled.md",
+    "tryhackme/XSS/Blind XSS.md",
+    "TCM security/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/vulnerabilities in other auth/other auth overview.md",
     "TCM security/attacking AD initial attack vectors/SMB relay attack/Discovering hosts with SMB signing disabled.md",
+    "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack(interactive shell).md",
+    "TCM security/attacking AD initial attack vectors/SMB relay attack/SMB relay attack.md",
+    "TCM security/exploitation basics/staged vs non-staged payloads.md",
+    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/vulnerabilities in other auth",
     "TCM security/attacking AD initial attack vectors/LLMNR poisoning",
-    "tryhackme/XSS/stored XSS.md",
-    "tryhackme/XSS/images/XSS4.png",
-    "tryhackme/XSS/Refplected XSS.md",
-    "tryhackme/XSS/images/XSS3.png",
-    "tryhackme/XSS/images/XSS2.png",
-    "tryhackme/XSS/images/XSS1.png",
-    "tryhackme/XSS/images",
-    "tryhackme/XSS/XSS overview.md",
-    "tryhackme/SSRF/SSRF overview.md",
-    "tryhackme/XSS",
-    "TCM security/Reconnaissance/passive/burp for information gathering.md",
-    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
-    "TCM security/Reconnaissance/passive/discovering email addresses.md",
-    "TCM security/Reconnaissance/passive/google fu.md",
-    "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
-    "TCM security/Reconnaissance/passive/Identifying Website technologies.md",
-    "TCM security/Reconnaissance/passive/passive reconnaissance overview.md",
-    "tryhackme/services/SMB(139_445)/SMB overview.md",
-    "TCM security/attacking AD initial attack vectors/images/SMB_relay_attack3.png",
-    "TCM security/attacking AD initial attack vectors/images/SMB_relay_attack2.png",
-    "TCM security/attacking AD initial attack vectors/images/SMB_relay_attack1.png",
-    "TCM security/attacking AD initial attack vectors/images",
-    "TCM security/attacking AD initial attack vectors/SMB relay attack",
-    "tryhackme/nmap/NSE scripts/Working with NSE.md",
-    "tryhackme/nmap/NSE scripts/Searching for scripts.md",
-    "TCM security/images/AD_in_SMB_relay1.png",
-    "tryhackme/SSRF/images",
-    "portswigger/Authentication/Vulnerabilities in authentication mechanisms/Vulnerabilities in multi-factor auth/2FA broken logic(concept and lab-2).md",
-    "tryhackme/SSRF",
-    "TCM security/images/hyok.ovpn",
-    "TCM security/attacking AD initial attack vectors/common terms"
+    "tryhackme/XSS/images"
   ]
 }
