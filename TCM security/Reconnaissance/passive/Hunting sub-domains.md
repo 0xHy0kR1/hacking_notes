@@ -79,3 +79,50 @@ Usage: amass intel [options] [-whois -d DOMAIN] [-addr ADDR -asn ASN -cidr CIDR]
   -addr value
     	IPs and ranges (192.168.1.1-254) separated by commas
 ```
+
+## Subdomains finding with assetfinder
+![[sum-domain-assetfinder1.png]]
+
+## Subdomains finding with amass
+![[amass1.png]]
+
+## Checking that host alive or not
+**Checking host alive or not on port 80 and 443**
+![[httprobe1.png]]
+
+**Checking host alive or not only on port 443**
+```python
+┌──(kali㉿kali)-[~]
+└─$ cat final.txt | httprobe -s -p https:443
+```
+
+**Stripped out the `https://` and `:443` from the output**
+```python
+┌──(kali㉿kali)-[~]
+└─$ cat final.txt | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ':443'
+```
+
+**Only displaying unique subdomains in the output**
+```python
+┌──(kali㉿kali)-[~]
+└─$ cat final.txt | sort -u | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ':443'
+```
+
+**Putting everything in the file**
+```python
+┌──(kali㉿kali)-[~]
+└─$ cat final.txt | sort -u | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ':443' >> final.txt
+```
+
+**Extracting content from the file**
+```python
+┌──(kali㉿kali)-[~]
+└─$ cat final.txt | grep admin
+```
+
+## Taking screenshot with gowitness
+**Command** - 
+```python
+gowitness single https://codewithharry.com
+```
+![[gowitness1.png]]
