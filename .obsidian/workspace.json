@@ -71,7 +71,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/Active Directory/AD post compromise attacks/Attacking GPP(Group Policy Preferences) Credentials.md",
+                "file": "comman_hacking_terms/Information gathering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7522edfbd98dabe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "comman_hacking_terms/Passive information gathering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2aca1672f609911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "comman_hacking_terms/Information gathering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d00d1ea4beba772c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/owasp top 10/SSRF.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -174,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCM security/Active Directory/AD post compromise attacks/Attacking GPP(Group Policy Preferences) Credentials.md",
+                "file": "tryhackme/owasp top 10/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCM security/Active Directory/AD post compromise attacks/Attacking GPP(Group Policy Preferences) Credentials.md",
+                "file": "tryhackme/owasp top 10/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCM security/Active Directory/AD post compromise attacks/Attacking GPP(Group Policy Preferences) Credentials.md"
+                "file": "tryhackme/owasp top 10/SSRF.md"
               }
             }
           }
@@ -236,52 +272,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "938e0ecc42e496bd",
+  "active": "d00d1ea4beba772c",
   "lastOpenFiles": [
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp1.png",
-    "TCM security/Active Directory/AD post compromise attacks/Attacking GPP(Group Policy Preferences) Credentials.md",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp10.png",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp9.png",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp8.png",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp7.png",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp6.png",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp5.png",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp4.png",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp3.png",
-    "TCM security/Active Directory/AD post compromise attacks/images/gpp2.png",
-    "portswigger/Burp_suite_concepts/burp repeater/Repeater overview.md",
-    "portswigger/Burp_suite_concepts/burp intruder/Payloads.md",
-    "portswigger/Burp_suite_concepts/burp repeater",
-    "portswigger/Burp_suite_concepts/burp intruder/burp intruder attack types.md",
-    "portswigger/Burp_suite_concepts/burp intruder/burp intruder positions.md",
-    "portswigger/Burp_suite_concepts/burp intruder",
+    "tryhackme/owasp top 10/images/owasp8.png",
+    "tryhackme/owasp top 10/images/owasp7.png",
+    "tryhackme/SSRF/SSRF overview.md",
+    "tryhackme/owasp top 10/SSRF.md",
+    "tryhackme/owasp top 10/integrity.md",
+    "tryhackme/owasp top 10/images/owasp6.png",
+    "tryhackme/owasp top 10/images/owasp5.png",
+    "tryhackme/owasp top 10/Security Misconfiguration.md",
+    "tryhackme/owasp top 10/Exploiting Command Injection.md",
+    "tryhackme/owasp top 10/Insecure design.md",
+    "tryhackme/owasp top 10/Vulnerable and Outdated Components.md",
+    "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
+    "TCM security/images/gowitness1.png",
+    "TCM security/images/httprobe1.png",
+    "TCM security/images/amass1.png",
+    "TCM security/images/sum-domain-assetfinder1.png",
+    "TCM security/Reconnaissance/passive/Identifying Website technologies.md",
+    "linux_concepts/utilities/hashes.md",
+    "linux_concepts/images/linux_integrity_hash2.png",
+    "linux_concepts/images/linux_integrity_hash1.png",
+    "tryhackme/owasp top 10/images/outdated_vuln2.png",
+    "TCM security/post exploitation/pivoting walkthrough.md",
+    "TCM security/post exploitation/images",
+    "TCM security/post exploitation/maintaining access.md",
+    "TCM security/post exploitation/file transfer review.md",
+    "TCM security/Active Directory/AD post compromise attacks/abusing zerologon.md",
+    "TCM security/post exploitation",
+    "TCM security/Active Directory/AD post compromise attacks/golden ticket attack.md",
+    "tryhackme/owasp top 10/cryptographic failures.md",
+    "tryhackme/owasp top 10/images",
+    "tryhackme/owasp top 10/broken access control.md",
+    "TCM security/Active Directory/AD post compromise attacks/AD resources.md",
+    "tryhackme/owasp top 10",
+    "tryhackme/Untitled.md",
+    "TCM security/Active Directory/AD post compromise attacks/mimikatz.md",
     "TCM security/Active Directory/AD post compromise attacks/kerberoasting.md",
-    "TCM security/Active Directory/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
-    "TCM security/Active Directory/AD post compromise attacks/pass the password or hash.md",
-    "TCM security/Active Directory/AD post compromise attacks/token impersonation.md",
-    "TCM security/Active Directory/AD post compromise attacks/dumping hashes with secretsdump.py.md",
-    "portswigger/SQL injection/SQL injection cheat sheet.md",
-    "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
-    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "portswigger/SQL injection/Blind SQL injection/Extracting sensitive data via verbose SQL error messages.md",
-    "portswigger/SQL injection/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
-    "TCM security/Active Directory/AD post compromise enum/powerview cheatsheet.md",
-    "TCM security/Active Directory/AD post compromise attacks/images",
-    "TCM security/Active Directory/AD post compromise attacks",
-    "TCM security/Active Directory/AD post compromise enum/blood hound setup and gathering data from victim.md",
-    "tryhackme/SQL injection/In-band SQLi.md",
-    "temp",
-    "tryhackme/SQL injection/DATABASE overview.md",
-    "TCM security/Active Directory/attacking AD initial attack vectors/SMB relay attack/SMB relay overview.md",
-    "tryhackme/SQL injection/SQL intro.md",
-    "portswigger/SQL injection/Intro to SQLi vulnerability.md",
-    "portswigger/SQL injection/Checking the vulnerability of SQL injection.md",
-    "portswigger/SQL injection/first and second order SQL injection.md",
-    "tryhackme/SQL injection/images",
-    "TCM security/Active Directory/attacking AD initial attack vectors/compromising IPv4 networks via IPv6(mitm6)/Attack phase 2 – DNS spoofing.md",
-    "tryhackme/SQL injection",
-    "TCM security/Active Directory/AD post compromise enum/images",
-    "TCM security/Active Directory/AD post compromise enum",
-    "tryhackme/command injection/images"
+    "comman_hacking_terms/Active information gathering.md",
+    "comman_hacking_terms/Information gathering.md",
+    "comman_hacking_terms/Passive information gathering.md",
+    "tryhackme/networking tools/dig.md",
+    "tryhackme/reconnaissance/passive recon",
+    "tryhackme/reconnaissance",
+    "portswigger/Burp_suite_concepts/burp other modules",
+    "portswigger/Burp_suite_concepts/burp repeater",
+    "portswigger/Burp_suite_concepts/burp intruder",
+    "TCM security/Active Directory/AD post compromise attacks/images"
   ]
 }
