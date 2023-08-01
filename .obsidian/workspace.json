@@ -4,139 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "63d952db66478bc5",
+        "id": "9984a97dff5ed7d2",
         "type": "tabs",
         "children": [
           {
-            "id": "1277e6b92302314b",
+            "id": "11ab743819fb303f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/Active Directory/attacking AD initial attack vectors/SMB relay attack/SMB relay overview.md",
+                "file": "notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4cd3505348c76751",
+            "id": "45dc3bf6bdc29db7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCM security/Active Directory/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
+                "file": "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9b17b39f89dc2ca9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TCM security/Active Directory/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8cb4c336d8ec026a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "portswigger/SQL injection/Blind SQL injection/Blind SQL injection with conditional errors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb3b15b13dff1244",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "TCM security/Active Directory/AD post compromise attacks/images/AD_post22.png"
-              }
-            }
-          },
-          {
-            "id": "938e0ecc42e496bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "comman_hacking_terms/Information gathering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7522edfbd98dabe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "comman_hacking_terms/Passive information gathering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2aca1672f609911",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "comman_hacking_terms/Information gathering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d00d1ea4beba772c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tryhackme/owasp top 10/SSRF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac428c8ca22d24a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TCM security/Active Directory/attacking AD initial attack vectors/LLMNR poisoning/LLMNR poisoning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d083d36a150af18",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "TCM security/Active Directory/AD post compromise attacks/images/gpp1.png"
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tryhackme/owasp top 10/SSRF.md",
+                "file": "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tryhackme/owasp top 10/SSRF.md",
+                "file": "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tryhackme/owasp top 10/SSRF.md"
+                "file": "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md"
               }
             }
           }
@@ -272,53 +168,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d00d1ea4beba772c",
+  "active": "45dc3bf6bdc29db7",
   "lastOpenFiles": [
-    "tryhackme/owasp top 10/images/owasp8.png",
-    "tryhackme/owasp top 10/images/owasp7.png",
-    "tryhackme/SSRF/SSRF overview.md",
-    "tryhackme/owasp top 10/SSRF.md",
-    "tryhackme/owasp top 10/integrity.md",
-    "tryhackme/owasp top 10/images/owasp6.png",
-    "tryhackme/owasp top 10/images/owasp5.png",
-    "tryhackme/owasp top 10/Security Misconfiguration.md",
-    "tryhackme/owasp top 10/Exploiting Command Injection.md",
-    "tryhackme/owasp top 10/Insecure design.md",
-    "tryhackme/owasp top 10/Vulnerable and Outdated Components.md",
-    "TCM security/Reconnaissance/passive/Hunting sub-domains.md",
-    "TCM security/images/gowitness1.png",
-    "TCM security/images/httprobe1.png",
-    "TCM security/images/amass1.png",
-    "TCM security/images/sum-domain-assetfinder1.png",
-    "TCM security/Reconnaissance/passive/Identifying Website technologies.md",
-    "linux_concepts/utilities/hashes.md",
-    "linux_concepts/images/linux_integrity_hash2.png",
-    "linux_concepts/images/linux_integrity_hash1.png",
-    "tryhackme/owasp top 10/images/outdated_vuln2.png",
-    "TCM security/post exploitation/pivoting walkthrough.md",
+    "temp.md",
+    "notes.md",
+    "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
+    "tryhackme/shells/Socat.md",
+    "tryhackme/shells/netcat shell stabilisation.md",
+    "tryhackme/shells/images/shells6.png",
+    "tryhackme/shells/images/shells5.png",
+    "tryhackme/shells/netcat overview.md",
+    "tryhackme/shells/shells overview.md",
+    "tryhackme/shells/images/shells4.png",
+    "tryhackme/shells/images/shells3.png",
+    "Metasploit/client-side exploitation and anti-virus bypass/Binary Linux Trojan.md",
+    "tryhackme/shells/images/shells2.png",
+    "tryhackme/shells/images/shells1.png",
+    "tryhackme/shells/images",
+    "tryhackme/shells",
+    "tryhackme/johntheripper/john password protected SSH keys.md",
+    "tryhackme/johntheripper/john password protected  rar archives.md",
+    "tryhackme/johntheripper/john password protected zip files.md",
+    "Metasploit/client-side exploitation and anti-virus bypass/Exploiting windows 10 machine.md",
+    "tryhackme/johntheripper/custom rules.md",
+    "tryhackme/johntheripper/single crack mode.md",
+    "TCM security/docs.md",
+    "tryhackme/johntheripper/Untitled",
+    "tryhackme/johntheripper/john crack \"etc shadow\" hashes.md",
+    "tryhackme/johntheripper/johntheripper introduction.md",
+    "tryhackme/johntheripper/john hash-identify and crack.md",
+    "TCM security/wireless_pentest/images/wireless1.png",
+    "TCM security/wireless_pentest/images",
+    "TCM security/wireless_pentest",
+    "tryhackme/web enumeration/gobuster.md",
+    "tryhackme/johntheripper",
+    "TCM security/Reconnaissance/active/Scanning with nmap.md",
+    "tryhackme/nmap/TCP connect scan.md",
+    "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
+    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
+    "tryhackme/nmap/UDP scan.md",
+    "tryhackme/nmap/Syn scan.md",
+    "tryhackme/nmap/scan types overview.md",
+    "tryhackme/web enumeration/images/web_enum14.png",
+    "tryhackme/web enumeration/images/web_enum13.png",
+    "tryhackme/web enumeration/images/web_enum12.png",
+    "tryhackme/web enumeration/images",
+    "tryhackme/web enumeration",
     "TCM security/post exploitation/images",
-    "TCM security/post exploitation/maintaining access.md",
-    "TCM security/post exploitation/file transfer review.md",
-    "TCM security/Active Directory/AD post compromise attacks/abusing zerologon.md",
-    "TCM security/post exploitation",
-    "TCM security/Active Directory/AD post compromise attacks/golden ticket attack.md",
-    "tryhackme/owasp top 10/cryptographic failures.md",
-    "tryhackme/owasp top 10/images",
-    "tryhackme/owasp top 10/broken access control.md",
-    "TCM security/Active Directory/AD post compromise attacks/AD resources.md",
-    "tryhackme/owasp top 10",
-    "tryhackme/Untitled.md",
-    "TCM security/Active Directory/AD post compromise attacks/mimikatz.md",
-    "TCM security/Active Directory/AD post compromise attacks/kerberoasting.md",
-    "comman_hacking_terms/Active information gathering.md",
-    "comman_hacking_terms/Information gathering.md",
-    "comman_hacking_terms/Passive information gathering.md",
-    "tryhackme/networking tools/dig.md",
-    "tryhackme/reconnaissance/passive recon",
-    "tryhackme/reconnaissance",
-    "portswigger/Burp_suite_concepts/burp other modules",
-    "portswigger/Burp_suite_concepts/burp repeater",
-    "portswigger/Burp_suite_concepts/burp intruder",
-    "TCM security/Active Directory/AD post compromise attacks/images"
+    "TCM security/post exploitation"
   ]
 }
