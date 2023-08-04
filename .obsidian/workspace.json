@@ -4,35 +4,93 @@
     "type": "split",
     "children": [
       {
-        "id": "9984a97dff5ed7d2",
+        "id": "3cd7d95f1a932084",
         "type": "tabs",
         "children": [
           {
-            "id": "11ab743819fb303f",
+            "id": "4f5658bc73a26ece",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes.md",
+                "file": "tryhackme/shells/common shell payloads.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "45dc3bf6bdc29db7",
+            "id": "96a588c851c9a6d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
+                "file": "tryhackme/shells/common shell payloads.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aff779b174ff4821",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "tryhackme/shells/images/shells10.png"
+              }
+            }
+          },
+          {
+            "id": "296e920a5251377e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/shells/common shell payloads.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e932c2244aaf481b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/shells/Socat.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "065309ee83990905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/shells/msfvenom.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fb205d7d6d1f93d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metasploit/MSFvenom/Introduction to MSFvenom.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -106,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
+                "file": "Metasploit/MSFvenom/Introduction to MSFvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
+                "file": "Metasploit/MSFvenom/Introduction to MSFvenom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md"
+                "file": "Metasploit/MSFvenom/Introduction to MSFvenom.md"
               }
             }
           }
@@ -168,22 +226,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "45dc3bf6bdc29db7",
+  "active": "8fb205d7d6d1f93d",
   "lastOpenFiles": [
-    "temp.md",
-    "notes.md",
-    "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
+    "tryhackme/shells/msfvenom.md",
     "tryhackme/shells/Socat.md",
+    "tryhackme/shells/netcat overview.md",
+    "tryhackme/shells/common shell payloads.md",
+    "tryhackme/shells/shells overview.md",
     "tryhackme/shells/netcat shell stabilisation.md",
+    "tryhackme/shells/images/shells10.png",
+    "THP-3/Lab_setup.md",
+    "tryhackme/shells/images/shells13.png",
+    "tryhackme/shells/images/shells12.png",
+    "tryhackme/shells/images/shells11.png",
+    "tryhackme/shells/images/shells9.png",
+    "notes.md",
+    "security assessment/Network vulnerability assessment.md",
+    "THP-3/Penetration_Testing_Teams_vs_Red_Teams.md",
+    "THP-3/fire-eye_twitter_report.pdf",
+    "security assessment/Vulnerability assessment.md",
+    "security assessment/security assessment.md",
+    "THP-3/images/penetration_test_vs_red_teams.png",
+    "THP-3/images",
+    "vulnerability info/Use-after-free.md",
+    "Metasploit/client-side exploitation and anti-virus bypass/Create a malicious Trojan application for Androids using Kwetza.md",
+    "THP-3",
+    "tryhackme/shells/socat encrypted shells.md",
+    "tryhackme/shells/images/shells8.png",
+    "tryhackme/shells/images/shells7.png",
+    "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
+    "temp.md",
     "tryhackme/shells/images/shells6.png",
     "tryhackme/shells/images/shells5.png",
-    "tryhackme/shells/netcat overview.md",
-    "tryhackme/shells/shells overview.md",
-    "tryhackme/shells/images/shells4.png",
-    "tryhackme/shells/images/shells3.png",
     "Metasploit/client-side exploitation and anti-virus bypass/Binary Linux Trojan.md",
-    "tryhackme/shells/images/shells2.png",
-    "tryhackme/shells/images/shells1.png",
     "tryhackme/shells/images",
     "tryhackme/shells",
     "tryhackme/johntheripper/john password protected SSH keys.md",
@@ -194,27 +269,9 @@
     "tryhackme/johntheripper/single crack mode.md",
     "TCM security/docs.md",
     "tryhackme/johntheripper/Untitled",
-    "tryhackme/johntheripper/john crack \"etc shadow\" hashes.md",
-    "tryhackme/johntheripper/johntheripper introduction.md",
-    "tryhackme/johntheripper/john hash-identify and crack.md",
-    "TCM security/wireless_pentest/images/wireless1.png",
     "TCM security/wireless_pentest/images",
     "TCM security/wireless_pentest",
-    "tryhackme/web enumeration/gobuster.md",
     "tryhackme/johntheripper",
-    "TCM security/Reconnaissance/active/Scanning with nmap.md",
-    "tryhackme/nmap/TCP connect scan.md",
-    "TCM security/Reconnaissance/active/Vulnerability scanning with nessus.md",
-    "TCM security/Reconnaissance/active/Web vulnerability scanning.md",
-    "tryhackme/nmap/UDP scan.md",
-    "tryhackme/nmap/Syn scan.md",
-    "tryhackme/nmap/scan types overview.md",
-    "tryhackme/web enumeration/images/web_enum14.png",
-    "tryhackme/web enumeration/images/web_enum13.png",
-    "tryhackme/web enumeration/images/web_enum12.png",
-    "tryhackme/web enumeration/images",
-    "tryhackme/web enumeration",
-    "TCM security/post exploitation/images",
-    "TCM security/post exploitation"
+    "tryhackme/web enumeration/images"
   ]
 }

