@@ -3,7 +3,7 @@ SMB can often be a great starting point for an attacker looking to discover sens
 
 ## Enumerating SMB shares with Enum4Linux:
 -  Enum4linux is a tool used to enumerate SMB shares on both Windows and Linux systems.
--  it easy to quickly extract information from the target.
+-  it is quickly extract information from the target.
 
 ### Syntax
 ```python
@@ -11,6 +11,7 @@ enum4linux [options] ip
 ```
 **TAG**            **FUNCTION**  
 
+`-e`              flag indicates that you want to perform an extended enumeration. Extended enumeration goes beyond basic information gathering and attempts to extract additional information, such as user details, group information, and other data, from the target Windows system.
 -U             get userlist  
 -M             get machine list  
 -N             get namelist dump (different from -U and-M)  

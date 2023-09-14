@@ -4,93 +4,70 @@
     "type": "split",
     "children": [
       {
-        "id": "3cd7d95f1a932084",
+        "id": "70c1fa816d65edca",
         "type": "tabs",
         "children": [
           {
-            "id": "4f5658bc73a26ece",
+            "id": "eea12726af1d45f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/shells/common shell payloads.md",
+                "file": "tryhackme/shells/netcat shell stabilisation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "96a588c851c9a6d2",
+            "id": "d3f6f6c3db916cbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/shells/common shell payloads.md",
+                "file": "tryhackme/SQL injection/DATABASE overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aff779b174ff4821",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "tryhackme/shells/images/shells10.png"
-              }
-            }
-          },
-          {
-            "id": "296e920a5251377e",
+            "id": "0882a492e618a011",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/shells/common shell payloads.md",
+                "file": "tryhackme/Hydra.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e932c2244aaf481b",
+            "id": "c78844b7ceca780f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/shells/Socat.md",
+                "file": "tryhackme/services/MySQL/MySQL enumeration.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "065309ee83990905",
+            "id": "af9bb74f2db61dfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/shells/msfvenom.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fb205d7d6d1f93d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metasploit/MSFvenom/Introduction to MSFvenom.md",
+                "file": "tryhackme/reconnaisance/active_recon/Ping.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,7 +121,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metasploit/MSFvenom/Introduction to MSFvenom.md",
+                "file": "tryhackme/shells/netcat shell stabilisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metasploit/MSFvenom/Introduction to MSFvenom.md",
+                "file": "tryhackme/shells/netcat shell stabilisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metasploit/MSFvenom/Introduction to MSFvenom.md"
+                "file": "tryhackme/shells/netcat shell stabilisation.md"
               }
             }
           }
@@ -226,52 +204,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8fb205d7d6d1f93d",
+  "active": "eea12726af1d45f2",
   "lastOpenFiles": [
-    "tryhackme/shells/msfvenom.md",
-    "tryhackme/shells/Socat.md",
-    "tryhackme/shells/netcat overview.md",
-    "tryhackme/shells/common shell payloads.md",
-    "tryhackme/shells/shells overview.md",
+    "tryhackme/services/MySQL/MySQL enumeration.md",
+    "tryhackme/Hydra.md",
+    "tryhackme/SQL injection/DATABASE overview.md",
     "tryhackme/shells/netcat shell stabilisation.md",
-    "tryhackme/shells/images/shells10.png",
-    "THP-3/Lab_setup.md",
-    "tryhackme/shells/images/shells13.png",
-    "tryhackme/shells/images/shells12.png",
-    "tryhackme/shells/images/shells11.png",
-    "tryhackme/shells/images/shells9.png",
-    "notes.md",
-    "security assessment/Network vulnerability assessment.md",
-    "THP-3/Penetration_Testing_Teams_vs_Red_Teams.md",
-    "THP-3/fire-eye_twitter_report.pdf",
-    "security assessment/Vulnerability assessment.md",
-    "security assessment/security assessment.md",
-    "THP-3/images/penetration_test_vs_red_teams.png",
-    "THP-3/images",
-    "vulnerability info/Use-after-free.md",
-    "Metasploit/client-side exploitation and anti-virus bypass/Create a malicious Trojan application for Androids using Kwetza.md",
-    "THP-3",
-    "tryhackme/shells/socat encrypted shells.md",
-    "tryhackme/shells/images/shells8.png",
-    "tryhackme/shells/images/shells7.png",
-    "Metasploit/client-side exploitation and anti-virus bypass/Backdooring exe using a MITM attack.md",
-    "temp.md",
-    "tryhackme/shells/images/shells6.png",
-    "tryhackme/shells/images/shells5.png",
-    "Metasploit/client-side exploitation and anti-virus bypass/Binary Linux Trojan.md",
-    "tryhackme/shells/images",
-    "tryhackme/shells",
-    "tryhackme/johntheripper/john password protected SSH keys.md",
-    "tryhackme/johntheripper/john password protected  rar archives.md",
-    "tryhackme/johntheripper/john password protected zip files.md",
-    "Metasploit/client-side exploitation and anti-virus bypass/Exploiting windows 10 machine.md",
-    "tryhackme/johntheripper/custom rules.md",
-    "tryhackme/johntheripper/single crack mode.md",
-    "TCM security/docs.md",
-    "tryhackme/johntheripper/Untitled",
-    "TCM security/wireless_pentest/images",
-    "TCM security/wireless_pentest",
-    "tryhackme/johntheripper",
-    "tryhackme/web enumeration/images"
+    "tryhackme/privilege_escalation/Linux/abusing_SUID_GUID_files.md",
+    "tryhackme/shells/common shell payloads.md",
+    "tryhackme/file inclusion/Remote File Inclusion - RFI.md",
+    "tryhackme/file inclusion/local file inclusion(LFI).md",
+    "tryhackme/file inclusion/file inclusion overview.md",
+    "tryhackme/file inclusion/file inclusion attack Remediation.md",
+    "tryhackme/owasp top 10/SSRF.md",
+    "tryhackme/owasp top 10/Vulnerable and Outdated Components.md",
+    "tryhackme/owasp top 10/Security Misconfiguration.md",
+    "tryhackme/owasp top 10/integrity.md",
+    "tryhackme/owasp top 10/Insecure design.md",
+    "tryhackme/owasp top 10/Exploiting Command Injection.md",
+    "tryhackme/owasp top 10/cryptographic failures.md",
+    "tryhackme/owasp top 10/broken access control.md",
+    "tryhackme/IDOR/IDOR.md",
+    "tryhackme/file inclusion/Steps for testing LFI.md",
+    "tryhackme/file inclusion/path traversal.md",
+    "tryhackme/command injection/Remediating Command Injection.md",
+    "tryhackme/command injection/Exploiting command injection.md",
+    "tryhackme/command injection/Discovering command injection.md",
+    "tryhackme/command injection/command injection overview.md",
+    "tryhackme/authentication bypass/username enumeration.md",
+    "tryhackme/images/sqlmap8.png",
+    "tryhackme/images/sqlmap7.png",
+    "tryhackme/images/sqlmap6.png",
+    "tryhackme/images/sqlmap5.png",
+    "tryhackme/images/sqlmap4.png",
+    "tryhackme/images/sqlmap3.png",
+    "tryhackme/images/sqlmap2.png",
+    "tryhackme/images/sqlmap1.png",
+    "tryhackme/red_team",
+    "tryhackme/images/vulnerabilities8.png",
+    "tryhackme/images/vulnerabilities7.png",
+    "tryhackme/vulnerabilities",
+    "tryhackme/reconnaisance/active_recon",
+    "tryhackme/reconnaisance",
+    "tryhackme/reconnaisance/passive_recon",
+    "tryhackme/images/dnsdumpster1",
+    "tryhackme/reconnaisance/passive_recon/networking tools/images",
+    "tryhackme/pentesting_fundamental",
+    "tryhackme/privilege_escalation/Linux/password_&_keys",
+    "tryhackme/privilege_escalation/Linux/Suid_sgid_executables"
   ]
 }

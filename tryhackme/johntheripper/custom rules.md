@@ -38,3 +38,8 @@ Let's consider the custom rule `[List.Rules:PoloPassword]` again: `cAz"[0-9] [!�
 - It first capitalizes the first letter using `c`.
 - Then, it appends a number from 0 to 9 using `Az` and the `[0-9]` character set.
 - Finally, it appends a symbol from the set `[!£$%@]` using `Az` and the `[!£$%@]` character set.
+
+```python
+john temp_hash.txt --format=raw-sha1 --wordlist=/usr/share/wordlists/SecLists/Passwords/Common-Credentials/10k-most-common.txt --config=/etc/john/john-local.conf
+
+```

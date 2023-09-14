@@ -17,7 +17,7 @@ sudo apt install gobuster
 	- Gobuster is powerful because it not only allows you to scan the website, but it will return the status codes as well.
 	- To use "dir" mode, you start by typing `gobuster dir`.
 ```python
-gobuster dir -u http://10.10.10.10 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 50
+gobuster dir -u http://10.10.10.10/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 50
 ```
 
 ### Other Useful Flags
@@ -65,3 +65,4 @@ gobuster vhost -u http://example.com -w /usr/share/wordlists/SecLists/Discovery
 
 **NOTE** - 
 1. For find any files in the VHOST you should first add them on your /etc/hosts with the corresponding ip.
+gobuster dir -u http://10.10.116.41/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 50
