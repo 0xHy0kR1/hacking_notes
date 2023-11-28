@@ -1,4 +1,4 @@
-## Pre-requisite --> [[enumeration]]
+## Pre-requisite --> [[tryhackme/services/enumeration]]
 
 ## NFS-Common
 - It is important to have this package installed on any machine that uses NFS, either as client or server.

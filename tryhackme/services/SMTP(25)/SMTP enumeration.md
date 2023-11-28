@@ -1,4 +1,4 @@
-## Pre-requisite --> [[enumeration]]
+## Pre-requisite --> [[tryhackme/services/enumeration]]
 
 ## Enumerating server details:
 We're going to use the "_smtp_version_" module in MetaSploit, it will scan a range of IP addresses and determine the version of any mail servers it encounters.

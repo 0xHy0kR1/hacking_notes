@@ -1,4 +1,4 @@
-## Pre-requisite --> [[enumeration]]
+## Pre-requisite --> [[tryhackme/services/enumeration]]
 ## ftp anonymous login
 As we're going to be logging in to an FTP server, we will need to make sure an FTP client is installed on the system, confirm it by typing "ftp" in the console.
 

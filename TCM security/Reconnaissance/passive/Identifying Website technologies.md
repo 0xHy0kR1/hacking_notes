@@ -7,7 +7,7 @@
 - It is same as Builtwith but it is a extension.
 - site --> [wappalyzer](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
 ![[wappalyzer_extension.png]]
-- Click on the above icon when do you visit any site, for info about that website.
+- Click on the above icon when you visit any site, for info about that website.
 
 ## 3. whatweb
 - WhatWeb identifies websites. It recognises web technologies including content management systems (CMS), blogging platforms, statistic/analytics packages, JavaScript libraries, web servers, and embedded devices.

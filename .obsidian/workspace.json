@@ -4,83 +4,139 @@
     "type": "split",
     "children": [
       {
-        "id": "70c1fa816d65edca",
+        "id": "a1e71cebc4fb5e1d",
         "type": "tabs",
         "children": [
           {
-            "id": "eea12726af1d45f2",
+            "id": "fa1ae00834d2c456",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2dc1c7f97ca0bfd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/shells/netcat shell stabilisation.md",
+                "file": "linux_concepts/enumeration.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bb15ce66354db0fa",
+            "id": "178e983bfa9400d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/nmap/nmap_intro.md",
+                "file": "tryhackme/privilege_escalation/Windows/Abusing dangerous privileges.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d3f6f6c3db916cbb",
+            "id": "1d25005249fda371",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/SQL injection/DATABASE overview.md",
+                "file": "tryhackme/privilege_escalation/Windows/Abusing dangerous privileges.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0882a492e618a011",
+            "id": "270a63fd522efec8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/Hydra.md",
+                "file": "Metasploit/Server side exploitation/Exploiting linux server.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c78844b7ceca780f",
+            "id": "bf837c2e1f7883de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/services/MySQL/MySQL enumeration.md",
+                "file": "tryhackme/privilege_escalation/Windows/Abusing dangerous privileges.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "af9bb74f2db61dfe",
+            "id": "338b4195fa016a51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/reconnaisance/active_recon/Ping.md",
+                "file": "Metasploit/active information gathering/SMB/SMB Login Check Scanner.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62e402e107cbb24b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metasploit/creating automated scripts(resource scripts).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de762f3f794d5de1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metasploit/Server side exploitation/Exploiting windows server when we have credentials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d29e40d491d33343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/privilege_escalation/Windows/Harvesting Passwords from Usual Spots.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80ad140d80f812a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/privilege_escalation/Windows/Harvesting Passwords from Usual Spots.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -109,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "metasploit brute",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +190,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tryhackme/nmap/nmap_intro.md",
+                "file": "Metasploit/active information gathering/SMB/SMB Login Check Scanner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tryhackme/nmap/nmap_intro.md",
+                "file": "Metasploit/active information gathering/SMB/SMB Login Check Scanner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +251,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tryhackme/nmap/nmap_intro.md"
+                "file": "Metasploit/active information gathering/SMB/SMB Login Check Scanner.md"
               }
             }
           },
@@ -212,8 +269,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,53 +282,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb15ce66354db0fa",
+  "active": "338b4195fa016a51",
   "lastOpenFiles": [
+    "Metasploit/Server side exploitation/Exploiting windows server when we have credentials.md",
+    "Metasploit/meterpreter/Automation with AutorunScript.md",
+    "Metasploit/creating automated scripts(resource scripts).md",
+    "tryhackme/privilege_escalation/Windows/Abusing dangerous privileges.md",
+    "Metasploit/Server side exploitation/Exploiting linux server.md",
+    "TCM security/docs.md",
+    "TCM security/intro to exploit development(buffer overflow)/generate shell code and gain root.md",
+    "TCM security/intro to exploit development(buffer overflow)/intro to buffer overflow.md",
+    "comman_hacking_terms/buffer overflow.md",
+    "TCM security/exploitation basics/finding the offset.md",
+    "TCM security/exploitation basics/staged vs non-staged payloads.md",
+    "TCM security/exploitation basics/Credential stuffing.md",
+    "TCM security/exploitation basics/bind shell vs reverse shell.md",
+    "Metasploit/meterpreter/getdesktop and keystroke sniffing.md",
+    "Metasploit/meterpreter/Introduction to meterpreter.md",
+    "Metasploit/Basics or beginning/Understanding services command.md",
     "Metasploit/Basics or beginning/Intro to metasploit.md",
-    "tryhackme/web enumeration/nikto.md",
-    "tryhackme/Hydra.md",
-    "tryhackme/images/hydra.webp",
-    "tryhackme/services/MySQL/MySQL enumeration.md",
-    "tryhackme/SQL injection/DATABASE overview.md",
+    "Metasploit/Basics or beginning/importing data from other tools to metasploit.md",
+    "Metasploit/Basics or beginning/Configuring the PostgreSQL database for metasploit.md",
+    "Metasploit/Basics or beginning/Creating workspaces.md",
+    "Metasploit/Basics or beginning/displaying data from database.md",
+    "tryhackme/shells/socat encrypted shells.md",
+    "tryhackme/shells/Socat.md",
+    "tryhackme/shells/shells overview.md",
     "tryhackme/shells/netcat shell stabilisation.md",
-    "tryhackme/privilege_escalation/Linux/abusing_SUID_GUID_files.md",
-    "tryhackme/shells/common shell payloads.md",
-    "tryhackme/file inclusion/Remote File Inclusion - RFI.md",
-    "tryhackme/file inclusion/local file inclusion(LFI).md",
-    "tryhackme/file inclusion/file inclusion overview.md",
-    "tryhackme/file inclusion/file inclusion attack Remediation.md",
-    "tryhackme/owasp top 10/SSRF.md",
-    "tryhackme/owasp top 10/Vulnerable and Outdated Components.md",
-    "tryhackme/owasp top 10/Security Misconfiguration.md",
-    "tryhackme/owasp top 10/integrity.md",
-    "tryhackme/owasp top 10/Insecure design.md",
-    "tryhackme/owasp top 10/Exploiting Command Injection.md",
-    "tryhackme/owasp top 10/cryptographic failures.md",
-    "tryhackme/owasp top 10/broken access control.md",
-    "tryhackme/IDOR/IDOR.md",
-    "tryhackme/file inclusion/Steps for testing LFI.md",
-    "tryhackme/file inclusion/path traversal.md",
-    "tryhackme/command injection/Remediating Command Injection.md",
-    "tryhackme/command injection/Exploiting command injection.md",
-    "tryhackme/command injection/Discovering command injection.md",
-    "tryhackme/images/sqlmap8.png",
-    "tryhackme/images/sqlmap7.png",
-    "tryhackme/images/sqlmap6.png",
-    "tryhackme/images/sqlmap5.png",
-    "tryhackme/images/sqlmap4.png",
-    "tryhackme/images/sqlmap3.png",
-    "tryhackme/images/sqlmap2.png",
-    "tryhackme/images/sqlmap1.png",
-    "tryhackme/red_team",
-    "tryhackme/images/vulnerabilities8.png",
-    "tryhackme/vulnerabilities",
-    "tryhackme/reconnaisance/active_recon",
-    "tryhackme/reconnaisance",
-    "tryhackme/reconnaisance/passive_recon",
-    "tryhackme/images/dnsdumpster1",
-    "tryhackme/reconnaisance/passive_recon/networking tools/images",
-    "tryhackme/pentesting_fundamental",
-    "tryhackme/privilege_escalation/Linux/password_&_keys",
-    "tryhackme/privilege_escalation/Linux/Suid_sgid_executables"
+    "tryhackme/shells/netcat overview.md",
+    "tryhackme/privilege_escalation/img/windows_privesc18.png",
+    "tryhackme/privilege_escalation/img/windows_privesc18.png.crdownload",
+    "tryhackme/privilege_escalation/img/windows_privesc17.png",
+    "tryhackme/privilege_escalation/img/windows_privesc16.png",
+    "tryhackme/privilege_escalation/img/windows_privesc15.png",
+    "tryhackme/privilege_escalation/img/windows_privesc14.png",
+    "tryhackme/privilege_escalation/img/windows_privesc14.png.crdownload",
+    "tryhackme/privilege_escalation/img/windows_privesc13.png",
+    "tryhackme/privilege_escalation/img/windows_privesc12.png",
+    "tryhackme/privilege_escalation/img/windows_privesc11.png",
+    "tryhackme/privilege_escalation/img/windows_privesc11.png.crdownload",
+    "tryhackme/privilege_escalation/img/windows_privesc10.png",
+    "tryhackme/privilege_escalation/img/windows_privesc9.png",
+    "tryhackme/privilege_escalation/img/windows_privesc9.png.crdownload",
+    "tryhackme/privilege_escalation/img/windows_privesc4.png.crdownload",
+    "tryhackme/privilege_escalation/img/windows_privesc3.png.crdownload",
+    "tryhackme/privilege_escalation/Windows",
+    "tryhackme/privilege_escalation/img/linux_privesc76.png.crdownload",
+    "tryhackme/privilege_escalation/img/linux_privesc75.png.crdownload",
+    "tryhackme/privilege_escalation/img/linux_privesc74.png.crdownload"
   ]
 }

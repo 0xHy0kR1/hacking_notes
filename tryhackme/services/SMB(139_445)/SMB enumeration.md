@@ -1,11 +1,11 @@
-## Pre-requisite --> [[enumeration]]
+## Pre-requisite --> [[tryhackme/services/enumeration]]
 SMB can often be a great starting point for an attacker looking to discover sensitive information
 
 ## Enumerating SMB shares with Enum4Linux:
 -  Enum4linux is a tool used to enumerate SMB shares on both Windows and Linux systems.
 -  it is quickly extract information from the target.
 
-### Syntax
+>Syntax
 ```python
 enum4linux [options] ip
 ```
@@ -21,7 +21,7 @@ enum4linux [options] ip
 
 -a             all of the above (full basic enumeration)
 
-### Example
+>Example
 ```python
 enum4linux -a 192.168.1.13
 ```

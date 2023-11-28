@@ -22,7 +22,7 @@ For identifying hashes you can use online [websites](https://hashes.com/en/tools
 and give hash value, when it ask for that.
 
 ### Format-Specific Cracking
-**Syntax** - 
+>Syntax
 ```python
 john --format=[format] --wordlist=[path to wordlist] [path to file]
 ```

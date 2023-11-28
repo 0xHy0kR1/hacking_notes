@@ -14,3 +14,7 @@ gpg --import tryhackme.key
 gpg --output message.txt --decrypt message.gpg
 ```
 
+### Example
+Let's suppose, we are inside a machine which require horizontal privilege escalation and we need to escalate our privilege from "skyfuck" to "merlin".
+
+For further practical demonstration see file "/home/hoax/writeups/thm/easy/tomghost/user_own_by_ghostcat(CVE-2020-1938)" file.

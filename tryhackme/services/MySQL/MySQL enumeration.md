@@ -1,4 +1,4 @@
-## Pre-requisite --> [[enumeration]]
+## Pre-requisite --> [[tryhackme/services/enumeration]]
 
 ## MySQL enumeration practically:
 

@@ -14,7 +14,8 @@ Privilege escalation is crucial, because it lets you gain system administrator l
 -  Get that cheeky root flag ;)
 
 ## Direction of privilege escalation - 
-![[linux1.png]]
+![[linux_privesc1.png]]
+
 
 #### There are two main privilege escalation variants:
 ###### Horizontal privilege escalation:

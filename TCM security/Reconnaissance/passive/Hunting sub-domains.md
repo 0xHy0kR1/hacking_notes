@@ -6,7 +6,7 @@
 └─$ sudo apt install subfinder
 ```
 
-#### 2. Help manu
+#### 2. Help menu
 ```python
 ┌──(hyok㉿kali)-[~]
 └─$ subfinder -h  

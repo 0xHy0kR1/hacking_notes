@@ -19,3 +19,5 @@ whois <domain>
 ┌──(hyok㉿kali)-[~/Downloads]
 └─$ whois facebook.com    
 ```
+
+Best website for whois lookup --> [lookup.icann.org](https://lookup.icann.org/lookup)

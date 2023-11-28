@@ -15,6 +15,10 @@
 - In order to use a private SSH key, the permissions must be set up correctly otherwise your SSH client will ignore the file with a warning (600 or stricter).
 - `ssh -i keyNameGoesHere user@host` is how you specify a key for the standard Linux OpenSSH client.
 
+**To use SSH, you need an SSH server and an SSH client. The SSH server listens on port 22 by default. The SSH client can authenticate using:**
+- A username and a password
+- A private and public key (after the SSH server is configured to recognize the corresponding public key)
+
 ## Practical on key creation and login with SSH key
 Create the keys by running:
 ```python
@@ -31,9 +35,9 @@ scp ~/.ssh/id_rsa.pub tryhackme@10.10.125.203:~/.ssh/authorized_keys
 **Enter the password if you get a prompt.**
 ![[ssh-key-gen2.webp]]
 
-**Now we should be able to log in with the keys, instead of the password.**
+**Now we are able to log in with the keys, instead of the password.**
 ```python
-ssh tryhackme@10.10.125.203
+ssh -i keyNameGoesHere user@host
 ```
 
 **If you have problems, there might be a problem with the permissions. In this case run something similar to this:**

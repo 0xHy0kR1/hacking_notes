@@ -6,6 +6,13 @@
 - it's usually good practice to run an Nmap scan with `--top-ports <number>` enabled.
 - When scanning UDP ports, Nmap usually sends completely empty requests -- just raw UDP packets.
 
+**the UDP ports that don’t generate any response are the ones that Nmap will state as open.**
+![[nmap24.png]]
+
+
+**we expect to get an ICMP packet of type 3, destination unreachable, and code 3, port unreachable**
+![[nmap25.png]]
+
 ## Syntax:
 ```bash
 Usage: nmap [Scan Type(s)] [Options] {target specification}
