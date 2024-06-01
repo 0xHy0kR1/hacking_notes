@@ -72,7 +72,7 @@ reg query HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\ /f "Proxy" /s
    - Just as putty stores credentials, any software that stores passwords, including browsers, email clients, FTP clients, SSH clients, VNC software and others, will have methods to recover any passwords the user has saved.
 
 ```sh
-xfreerdp /v:10.10.43.31 /u:THMBackup /p:CopyMaster555
+xfreerdp /v:10.10.48.108 /u:Administrator /p:letmein123!
 ```
 
 

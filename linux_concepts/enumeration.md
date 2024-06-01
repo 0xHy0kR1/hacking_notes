@@ -1,4 +1,4 @@
->The "hostname" command will return the hostname of the target machine.
+~>The "hostname" command will return the hostname of the target machine.
 ```sh
 hostname
 ```
