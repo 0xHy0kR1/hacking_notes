@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/shells/netcat shell stabilisation.md",
+                "file": "Tools/anew.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18499dabfd38bed2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "comman_hacking_terms/DNS/Authoritative DNS server.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "go",
+                "query": "gf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tryhackme/shells/netcat shell stabilisation.md",
+                "file": "Tools/anew.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tryhackme/shells/netcat shell stabilisation.md",
+                "file": "Tools/anew.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tryhackme/shells/netcat shell stabilisation.md"
+                "file": "Tools/anew.md"
               }
             }
           },
@@ -193,11 +205,19 @@
   },
   "active": "9b7619966c86c208",
   "lastOpenFiles": [
-    "Metasploit/MSFvenom/Introduction to MSFvenom.md",
-    "Metasploit/MSFvenom/meterpreter payloads with trusted certificates.md",
-    "tryhackme/external_recon/asset_discoveries.md",
-    "Tools/gau.md",
     "Tools/gf.md",
+    "Tools/anew.md",
+    "tryhackme/shells/netcat shell stabilisation.md",
+    "tryhackme/shells/Socat.md",
+    "Metasploit/MSFvenom/Introduction to MSFvenom.md",
+    "Metasploit/client-side exploitation and anti-virus bypass/HTA attack.md",
+    "tryhackme/privilege_escalation/Windows/Abusing Service Misconfigurations.md",
+    "tryhackme/external_recon/asset_discoveries.md",
+    "comman_hacking_terms/DNS/DNS record.md",
+    "comman_hacking_terms/DNS/Authoritative DNS server.md",
+    "linux_concepts/enumeration.md",
+    "Metasploit/MSFvenom/meterpreter payloads with trusted certificates.md",
+    "Tools/gau.md",
     "tryhackme/external_recon/eyewitness.md",
     "tryhackme/external_recon/images/eyewitness3.webp",
     "tryhackme/external_recon/images/eyewitness3.webp.crdownload",
@@ -206,9 +226,7 @@
     "tryhackme/external_recon/images/eyewitness1.webp",
     "tryhackme/external_recon/images/eyewitness1.webp.crdownload",
     "tryhackme/sqlmap.md",
-    "tryhackme/shells/netcat shell stabilisation.md",
     "tryhackme/shells/shells overview.md",
-    "tryhackme/shells/Socat.md",
     "tryhackme/shells/socat encrypted shells.md",
     "tryhackme/shells/netcat overview.md",
     "tryhackme/shells/common shell payloads.md",
@@ -225,17 +243,11 @@
     "tryhackme/services/MySQL/MySQL overview.md",
     "tryhackme/services/MySQL/exploiting MySQL.md",
     "tryhackme/johntheripper/john hash-identify and crack.md",
-    "tryhackme/External_tools.md",
-    "linux_concepts/packages and software repo.md",
-    "linux_concepts/java versions.md",
-    "linux_concepts/enumeration.md",
     "tools",
     "tryhackme/external_recon/images/assetd1.jpg",
     "tryhackme/external_recon/images/assetd1.jpg.crdownload",
     "tryhackme/external_recon/images/assetd1jpg",
     "tryhackme/external_recon/images/Unconfirmed 720883.crdownload",
-    "tryhackme/services/SMB(139_445)/exploiting SMB.md",
-    "tryhackme/services/SMB(139_445)/SMB enumeration.md",
     "tryhackme/SIEM/images/splunk31.png",
     "linux_concepts/images/java_version2.png",
     "linux_concepts/images/java_version1.png"

@@ -1,4 +1,4 @@
-**Below we are discussing three techniques to stabilise netcat shell**
+ **Below we are discussing three techniques to stabilise netcat shell**
 
 1. Technique 1: Python
 - The first technique we'll be discussing is applicable only to Linux boxes, as they will nearly always have Python installed by default.
