@@ -1,4 +1,4 @@
-1. Download the tar file from the below mentioned url:
+cat1. Download the tar file from the below mentioned url:
 ```sh
 https://github.com/tomnomnom/anew/releases
 ```

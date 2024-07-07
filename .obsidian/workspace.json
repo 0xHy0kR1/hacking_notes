@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metasploit/active information gathering/nessus/integrating with nessus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b7619966c86c208",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/anew.md",
+                "file": "Tools/gf.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,25 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "5dacf3cd1b07689c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b7619966c86c208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tryhackme/external_recon/eyewitness.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gf",
+                "query": "eyewi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +116,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,13 +137,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/anew.md",
+                "file": "tryhackme/external_recon/eyewitness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -147,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/anew.md",
+                "file": "tryhackme/external_recon/eyewitness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/anew.md"
+                "file": "tryhackme/external_recon/eyewitness.md"
               }
             }
           },
@@ -205,7 +212,13 @@
   },
   "active": "9b7619966c86c208",
   "lastOpenFiles": [
+    "Tools/fff.md",
     "Tools/gf.md",
+    "Metasploit/active information gathering/nessus/integrating with nessus.md",
+    "tryhackme/external_recon/eyewitness.md",
+    "linux_concepts/enumeration.md",
+    "Tools/assetfinder.md",
+    "Tools/setting up recon_profile.md",
     "Tools/anew.md",
     "tryhackme/shells/netcat shell stabilisation.md",
     "tryhackme/shells/Socat.md",
@@ -215,10 +228,8 @@
     "tryhackme/external_recon/asset_discoveries.md",
     "comman_hacking_terms/DNS/DNS record.md",
     "comman_hacking_terms/DNS/Authoritative DNS server.md",
-    "linux_concepts/enumeration.md",
     "Metasploit/MSFvenom/meterpreter payloads with trusted certificates.md",
     "Tools/gau.md",
-    "tryhackme/external_recon/eyewitness.md",
     "tryhackme/external_recon/images/eyewitness3.webp",
     "tryhackme/external_recon/images/eyewitness3.webp.crdownload",
     "tryhackme/external_recon/images/eyewitness2.webp",
@@ -239,10 +250,6 @@
     "linux_concepts/images/regex2.webp.crdownload",
     "linux_concepts/images/regex1.webp",
     "linux_concepts/images/regex1.webp.crdownload",
-    "tryhackme/services/MySQL/MySQL enumeration.md",
-    "tryhackme/services/MySQL/MySQL overview.md",
-    "tryhackme/services/MySQL/exploiting MySQL.md",
-    "tryhackme/johntheripper/john hash-identify and crack.md",
     "tools",
     "tryhackme/external_recon/images/assetd1.jpg",
     "tryhackme/external_recon/images/assetd1.jpg.crdownload",
